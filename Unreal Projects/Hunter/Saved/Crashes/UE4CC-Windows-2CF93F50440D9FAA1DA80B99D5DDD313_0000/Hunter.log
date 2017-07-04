@@ -1,0 +1,488 @@
+﻿Log file open, 06/23/17 21:50:48
+LogInit:Display: Running engine for game: Hunter
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(772704836) SRandInit(772704836).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.087646
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: E:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.23-20.50.48:436][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.23-20.50.48:437][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.23-20.50.48:444][  0]LogInit: Computer: SNOOP-PC
+[2017.06.23-20.50.48:444][  0]LogInit: User: Snoop
+[2017.06.23-20.50.48:444][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.06.23-20.50.48:444][  0]LogInit: High frequency timer resolution =3.410273 MHz
+[2017.06.23-20.50.48:444][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.06.23-20.50.48:444][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.23-20.50.48:444][  0]LogMemory: Process Physical Memory: 276.20 MB used, 276.20 MB peak
+[2017.06.23-20.50.48:444][  0]LogMemory: Process Virtual Memory: 264.60 MB used, 264.60 MB peak
+[2017.06.23-20.50.48:444][  0]LogMemory: Physical Memory: 3796.75 MB used,  12536.13 MB free, 16332.88 MB total
+[2017.06.23-20.50.48:444][  0]LogMemory: Virtual Memory: 624.41 MB used,  12536.13 MB free, 8388608.00 MB total
+[2017.06.23-20.50.48:521][  0]LogInit: Using OS detected language (en-US).
+[2017.06.23-20.50.48:522][  0]LogInit: Using OS detected locale (en-US).
+[2017.06.23-20.50.48:525][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.06.23-20.50.49:391][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.23-20.50.49:406][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 560' (Feature Level 11_0)
+[2017.06.23-20.50.49:406][  0]LogD3D11RHI:       979/0/3071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.06.23-20.50.49:406][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.23-20.50.49:409][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.23-20.50.49:409][  0]LogD3D11RHI:     GPU DeviceId: 0x1201 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.23-20.50.49:409][  0]LogWindows: EnumDisplayDevices:
+[2017.06.23-20.50.49:409][  0]LogWindows:    0. 'NVIDIA GeForce GTX 560' (P:1 D:1)
+[2017.06.23-20.50.49:409][  0]LogWindows:    1. 'NVIDIA GeForce GTX 560' (P:0 D:0)
+[2017.06.23-20.50.49:410][  0]LogWindows:    2. 'RDPDD Chained DD' (P:0 D:0)
+[2017.06.23-20.50.49:410][  0]LogWindows:    3. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.06.23-20.50.49:410][  0]LogWindows:    4. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.06.23-20.50.49:410][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:2 
+[2017.06.23-20.50.49:410][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 560
+[2017.06.23-20.50.49:410][  0]LogD3D11RHI:   Driver Version: 378.92 (internal:21.21.13.7892, unified:378.92)
+[2017.06.23-20.50.49:410][  0]LogD3D11RHI:      Driver Date: 3-16-2017
+[2017.06.23-20.50.49:410][  0]LogRHI: Texture pool is 685 MB (70% of 979 MB)
+[2017.06.23-20.50.49:419][  0]LogD3D11RHI:Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.06.23-20.50.49:419][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.23-20.50.49:433][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.06.23-20.50.49:479][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Intermediate/Shaders/WorkingDirectory/7116/).
+[2017.06.23-20.50.49:479][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Snoop/AppData/Local/Temp/UnrealShaderWorkingDir/0C379CB04D1186FBB52D8EB7D5AD316D/'.
+[2017.06.23-20.50.49:479][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.23-20.50.50:463][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.23-20.50.50:508][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.23-20.50.50:553][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.23-20.50.50:597][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.23-20.50.50:643][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.23-20.50.50:688][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.23-20.50.50:733][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.23-20.50.50:778][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.23-20.50.50:817][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.23-20.50.50:862][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.23-20.50.50:907][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.23-20.50.50:952][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.23-20.50.50:997][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.23-20.50.51:041][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.23-20.50.51:086][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.23-20.50.51:176][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.23-20.50.51:176][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.23-20.50.51:210][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.23-20.50.51:292][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.23-20.50.51:316][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.23-20.50.51:359][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.23-20.50.51:403][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.23-20.50.51:446][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.23-20.50.51:489][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.23-20.50.51:489][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.23-20.50.51:890][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.23-20.50.51:972][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/Snoop/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.23-20.50.51:972][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Snoop/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.06.23-20.50.51:972][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.23-20.50.51:972][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.23-20.50.51:972][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.23-20.50.51:972][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.23-20.50.51:989][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.23-20.50.52:000][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Snoop/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.23-20.50.52:009][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.06.23-20.50.52:010][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.23-20.50.52:010][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.23-20.50.52:010][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.23-20.50.52:391][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.23-20.50.52:395][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.23-20.50.52:613][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.23-20.50.52:653][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.23-20.50.52:697][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.23-20.50.52:697][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.23-20.50.52:697][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.23-20.50.53:154][  0]LogNetVersion: Hunter , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3400572679)
+[2017.06.23-20.50.53:209][  0]LogAssetRegistry: FAssetRegistry took 0.0237 seconds to start up
+[2017.06.23-20.50.53:247][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.022863 seconds
+[2017.06.23-20.50.53:252][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.06.23-20.50.53:252][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.06.23-20.50.53:252][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.23-20.50.53:296][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.23-20.50.55:433][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.23-20.50.55:467][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.23-20.50.55:973][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.23-20.50.56:337][  0]SourceControl: Info Source control is disabled
+[2017.06.23-20.50.56:356][  0]SourceControl: Info Source control is disabled
+[2017.06.23-20.50.56:400][  0]SourceControl: Info Source control is disabled
+[2017.06.23-20.50.56:444][  0]SourceControl: Info Source control is disabled
+[2017.06.23-20.50.57:052][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.06.23-20.50.57:593][  0]LogEngine: Initializing Engine...
+[2017.06.23-20.50.57:593][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.23-20.50.57:788][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.23-20.50.57:788][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.23-20.50.57:898][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.23-20.50.57:915][  0]LogInit: XAudio2 using 'LG TV-14 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.23-20.50.57:956][  0]LogInit: FAudioDevice initialized.
+[2017.06.23-20.50.57:997][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Snoop/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.23-20.50.58:002][  0]LogInit: Texture streaming: Enabled
+[2017.06.23-20.50.58:077][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.23-20.50.58:260][  0]LogInit: Transaction tracking system initialized
+[2017.06.23-20.50.58:524][  0]BlueprintLog: New page: Editor Load
+[2017.06.23-20.50.59:321][  0]LocalizationService: Info Localization service is disabled
+[2017.06.23-20.50.59:906][  0]LogConsoleResponse:Display: 
+[2017.06.23-20.51.00:037][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.23-20.51.00:037][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.23-20.51.00:893][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Snoop/Documents/Unreal Projects/Hunter/Content/' took 0.02s
+[2017.06.23-20.51.00:934][  0]SourceControl: Info Source control is disabled
+[2017.06.23-20.51.00:934][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.23-20.51.00:935][  0]LightingResults: New page: Lighting Build
+[2017.06.23-20.51.00:969][  0]MapCheck: New page: Map Check
+[2017.06.23-20.51.00:969][  0]LightingResults: New page: Lighting Build
+[2017.06.23-20.51.01:434][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.06.23-20.51.01:474][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.23-20.51.01:485][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.23-20.51.01:537][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 52.179ms to complete.
+[2017.06.23-20.51.01:537][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.603
+[2017.06.23-20.51.01:667][  0]LogCollectionManager: Loaded 0 collections in 0.001709 seconds
+[2017.06.23-20.51.01:752][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Collections/' took 0.01s
+[2017.06.23-20.51.01:752][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Snoop/Documents/Unreal Projects/Hunter/Content/Developers/Snoop/Collections/' took 0.01s
+[2017.06.23-20.51.01:752][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Snoop/Documents/Unreal Projects/Hunter/Content/Collections/' took 0.01s
+[2017.06.23-20.51.01:752][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.06.23-20.51.01:761][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2329 classes and 491 folders.
+[2017.06.23-20.51.01:813][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.06.23-20.51.01:856][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.06.23-20.51.01:894][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.06.23-20.51.01:975][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.23-20.51.01:980][  0]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.23-20.51.01:983][  0]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.23-20.51.01:985][  0]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.23-20.51.02:070][  0]LogRenderer: Reallocating scene render targets to support 1080x292 NumSamples 1 (Frame:1).
+[2017.06.23-20.51.02:259][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.23-20.51.02:325][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.06.23-20.51.02:325][  0]LogLoad: (Engine Initialization) Total time: 15.42 seconds
+[2017.06.23-20.51.02:325][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.09 seconds
+[2017.06.23-20.51.02:325][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.06.23-20.51.02:334][  0]LogOcInput: OculusInput pre-init called
+[2017.06.23-20.51.02:334][  0]LogHMD: Starting GearVRController plugin
+[2017.06.23-20.51.02:354][  0]LogContentStreaming: Texture pool size now 800 MB
+[2017.06.23-20.51.02:400][  0]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.23-20.51.02:422][  1]LogAssetRegistry: Asset discovery search completed in 9.2331 seconds
+[2017.06.23-20.51.02:424][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.06.23-20.51.02:424][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000029 seconds (updated 0 objects)
+[2017.06.23-20.51.03:398][ 46]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.23-20.51.08:363][289]LogSlate: Took 0.000411 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.23-20.51.08:407][289]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.51.08:497][289]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.51.08:511][289]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.51.08:545][289]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.06.23-20.51.08:550][289]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2017.06.23-20.51.08:564][289]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.23-20.51.09:645][345]MaterialEditorStats: Info Base pass shader: 83 instructions
+[2017.06.23-20.51.09:645][345]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.51.09:645][345]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.23-20.51.09:645][345]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.51.19:898][106]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.51.19:918][106]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.06.23-20.51.20:760][148]MaterialEditorStats: Info Base pass shader: 83 instructions
+[2017.06.23-20.51.20:760][148]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.51.20:760][148]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.23-20.51.20:760][148]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.51.35:852][561]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.51.35:866][561]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.51.35:900][561]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.06.23-20.51.36:523][597]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.51.37:434][651]MaterialEditorStats: Info Base pass shader: 83 instructions
+[2017.06.23-20.51.37:434][651]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.51.37:434][651]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.23-20.51.37:434][651]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.51.39:101][814]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.51.39:120][814]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.06.23-20.51.39:940][860]MaterialEditorStats: Info Base pass shader: 83 instructions
+[2017.06.23-20.51.39:940][860]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.51.39:940][860]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.23-20.51.39:940][860]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.51.41:685][ 28]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.51.41:699][ 28]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.51.41:732][ 28]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.06.23-20.51.42:184][ 56]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.51.43:157][113]MaterialEditorStats: Info Base pass shader: 83 instructions
+[2017.06.23-20.51.43:157][113]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.51.43:157][113]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.23-20.51.43:157][113]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.51.48:467][505]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.51.48:487][505]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.06.23-20.51.49:288][547]MaterialEditorStats: Info Base pass shader: 83 instructions
+[2017.06.23-20.51.49:288][547]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.51.49:288][547]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.23-20.51.49:288][547]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.52.24:344][ 20]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.52.24:429][ 21]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2017.06.23-20.52.25:414][ 65]MaterialEditorStats: Info Base pass shader: 83 instructions
+[2017.06.23-20.52.25:414][ 65]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.52.25:414][ 65]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.23-20.52.25:414][ 65]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.52.38:634][237]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.52.38:648][237]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.52.38:687][237]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.06.23-20.52.39:473][284]MaterialEditorStats: Info Base pass shader: 83 instructions
+[2017.06.23-20.52.39:473][284]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.52.39:473][284]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.23-20.52.39:473][284]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.52.39:808][318]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.52.41:029][416]MaterialEditorStats: Info Base pass shader: 83 instructions
+[2017.06.23-20.52.41:029][416]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.52.41:029][416]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.23-20.52.41:029][416]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.53.01:067][417]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.53.01:083][417]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.06.23-20.53.02:151][470]MaterialEditorStats: Info Base pass shader: 83 instructions
+[2017.06.23-20.53.02:151][470]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.53.02:151][470]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.23-20.53.02:151][470]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.53.08:179][ 29]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.53.08:997][ 74]MaterialEditorStats: Info Base pass shader: 93 instructions
+[2017.06.23-20.53.08:997][ 74]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.53.08:997][ 74]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.06.23-20.53.08:997][ 74]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.53.23:858][650]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.53.24:681][690]MaterialEditorStats: Info Base pass shader: 93 instructions
+[2017.06.23-20.53.24:681][690]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.53.24:681][690]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.06.23-20.53.24:681][690]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.54.21:742][843]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.54.26:749][354]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.54.27:575][404]MaterialEditorStats: Info Base pass shader: 93 instructions
+[2017.06.23-20.54.27:575][404]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.54.27:575][404]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.06.23-20.54.27:575][404]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.54.32:535][865]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.54.33:363][917]MaterialEditorStats: Info Base pass shader: 93 instructions
+[2017.06.23-20.54.33:363][917]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.54.33:363][917]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.06.23-20.54.33:363][917]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.55.19:696][992]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.55.19:711][992]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.55.19:745][992]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.06.23-20.55.20:807][ 62]MaterialEditorStats: Info Base pass shader: 93 instructions
+[2017.06.23-20.55.20:807][ 62]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.55.20:807][ 62]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.06.23-20.55.20:807][ 62]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.55.21:227][106]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.55.22:039][157]MaterialEditorStats: Info Base pass shader: 92 instructions
+[2017.06.23-20.55.22:039][157]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.55.22:039][157]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.06.23-20.55.22:039][157]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.55.25:859][549]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.55.25:875][549]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.06.23-20.55.26:696][599]MaterialEditorStats: Info Base pass shader: 94 instructions
+[2017.06.23-20.55.26:696][599]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.55.26:696][599]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.06.23-20.55.26:696][599]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.55.28:659][766]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.55.28:673][766]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.55.28:744][766]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.06.23-20.55.29:179][790]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.55.31:504][993]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.55.31:524][993]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.06.23-20.55.32:335][ 34]MaterialEditorStats: Info Base pass shader: 92 instructions
+[2017.06.23-20.55.32:335][ 34]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.55.32:335][ 34]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.06.23-20.55.32:335][ 34]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.55.34:674][224]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.55.34:688][224]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.55.34:723][224]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2017.06.23-20.55.35:122][246]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.55.36:193][299]MaterialEditorStats: Info Base pass shader: 92 instructions
+[2017.06.23-20.55.36:193][299]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.55.36:193][299]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.06.23-20.55.36:193][299]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.55.37:138][350]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.55.38:600][483]MaterialEditorStats: Info Base pass shader: 83 instructions
+[2017.06.23-20.55.38:600][483]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.55.38:600][483]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.23-20.55.38:600][483]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.55.50:212][626]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.55.50:231][626]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2017.06.23-20.55.51:037][663]MaterialEditorStats: Info Base pass shader: 83 instructions
+[2017.06.23-20.55.51:037][663]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.55.51:037][663]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.23-20.55.51:037][663]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.55.53:132][811]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.55.53:164][811]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.55.53:280][811]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2017.06.23-20.55.54:097][861]MaterialEditorStats: Info Base pass shader: 83 instructions
+[2017.06.23-20.55.54:097][861]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.55.54:097][861]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.23-20.55.54:097][861]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.55.54:553][909]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.55.55:371][961]MaterialEditorStats: Info Base pass shader: 83 instructions
+[2017.06.23-20.55.55:371][961]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.55.55:371][961]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.23-20.55.55:371][961]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.55.57:232][136]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.55.57:249][136]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2017.06.23-20.55.58:085][175]MaterialEditorStats: Info Base pass shader: 83 instructions
+[2017.06.23-20.55.58:085][175]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.55.58:085][175]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.23-20.55.58:085][175]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.56.04:690][819]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.56.04:706][819]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2017.06.23-20.56.05:533][856]MaterialEditorStats: Info Base pass shader: 83 instructions
+[2017.06.23-20.56.05:533][856]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.56.05:533][856]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.23-20.56.05:533][856]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.56.07:938][ 85]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.56.07:955][ 85]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2017.06.23-20.56.08:777][135]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2017.06.23-20.56.08:777][135]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.56.08:777][135]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.23-20.56.08:777][135]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.56.38:182][897]LogMaterialEditor: Saving and Compiling material Mushrooms
+[2017.06.23-20.56.38:753][897]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.56.38:792][897]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.56.38:817][897]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.56.38:859][897]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Mushrooms, compiling. 
+[2017.06.23-20.56.39:689][897]TextureStreamingBuild:Display: Compiling optional shaders took 0.838 seconds.
+[2017.06.23-20.56.40:982][897]LogSlate: Took 0.000215 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.23-20.56.41:013][897]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Mushrooms" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Materials/Mushrooms.uasset" SILENT=true
+[2017.06.23-20.56.41:029][897]LogSavePackage: Save=12.10ms
+[2017.06.23-20.56.41:029][897]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Mushrooms1605D9374A1671C74CE5D4A4578945D4.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Materials/Mushrooms.uasset'
+[2017.06.23-20.56.41:031][897]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Materials/Mushrooms.uasset
+[2017.06.23-20.56.41:036][897]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2017.06.23-20.56.41:036][897]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.56.41:036][897]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.06.23-20.56.41:036][897]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.57.12:616][370]LogMaterialEditor: Saving and Compiling material Mushrooms
+[2017.06.23-20.57.12:627][370]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Mushrooms" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Materials/Mushrooms.uasset" SILENT=true
+[2017.06.23-20.57.12:632][370]LogSavePackage: Save=2.70ms
+[2017.06.23-20.57.12:632][370]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/MushroomsB7F0F3FA494A6AC63A294F83D7445A10.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Materials/Mushrooms.uasset'
+[2017.06.23-20.57.12:633][370]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Materials/Mushrooms.uasset
+[2017.06.23-20.57.15:763][686]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (AlienRock4)
+[2017.06.23-20.57.17:421][841]LogMaterial: Missing cached shader map for material Palette1, compiling. 
+[2017.06.23-20.57.17:499][841]LogMaterial: Missing cached shader map for material Palette1, compiling. 
+[2017.06.23-20.57.17:514][841]LogMaterial: Missing cached shader map for material Palette1, compiling. 
+[2017.06.23-20.57.17:552][841]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.06.23-20.57.17:557][841]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.06.23-20.57.18:599][886]MaterialEditorStats: Info Base pass shader: 83 instructions
+[2017.06.23-20.57.18:599][886]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.57.18:599][886]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.23-20.57.18:599][886]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.57.34:859][ 37]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.57.34:952][ 37]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.57.34:977][ 37]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.57.35:023][ 37]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.06.23-20.57.36:500][102]MaterialEditorStats: Info Base pass shader: 91 instructions
+[2017.06.23-20.57.36:500][102]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.57.36:500][102]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.23-20.57.36:500][102]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.57.38:497][276]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.57.38:525][276]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.06.23-20.57.40:057][357]MaterialEditorStats: Info Base pass shader: 91 instructions
+[2017.06.23-20.57.40:057][357]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.57.40:057][357]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.23-20.57.40:057][357]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.57.44:075][635]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.57.44:113][635]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.57.44:160][635]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.06.23-20.57.45:677][719]MaterialEditorStats: Info Base pass shader: 91 instructions
+[2017.06.23-20.57.45:677][719]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.57.45:677][719]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.23-20.57.45:677][719]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.57.47:094][852]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.57.48:617][937]MaterialEditorStats: Info Base pass shader: 91 instructions
+[2017.06.23-20.57.48:617][937]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.57.48:617][937]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.23-20.57.48:617][937]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.57.52:045][230]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.57.52:074][230]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.06.23-20.57.53:592][309]MaterialEditorStats: Info Base pass shader: 91 instructions
+[2017.06.23-20.57.53:593][309]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.57.53:593][309]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.23-20.57.53:593][309]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.57.57:702][599]LogMaterialEditor: Saving and Compiling material tumbleweed
+[2017.06.23-20.57.58:277][599]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.57.58:344][599]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.57.58:389][599]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.57.58:474][599]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy tumbleweed, compiling. 
+[2017.06.23-20.57.59:656][599]TextureStreamingBuild:Display: Compiling optional shaders took 1.208 seconds.
+[2017.06.23-20.58.01:621][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/tumbleweed" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Materials/tumbleweed.uasset" SILENT=true
+[2017.06.23-20.58.01:636][599]LogSavePackage: Save=12.02ms
+[2017.06.23-20.58.01:636][599]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/tumbleweedD31AAFE34C5AA2AEEC809B8737109483.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Materials/tumbleweed.uasset'
+[2017.06.23-20.58.01:638][599]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Materials/tumbleweed.uasset
+[2017.06.23-20.58.01:643][599]MaterialEditorStats: Info Base pass shader: 91 instructions
+[2017.06.23-20.58.01:643][599]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2017.06.23-20.58.01:643][599]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.23-20.58.01:643][599]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.58.04:893][881]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.58.04:922][881]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.06.23-20.58.06:431][960]MaterialEditorStats: Info Base pass shader: 91 instructions
+[2017.06.23-20.58.06:431][960]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.58.06:431][960]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.23-20.58.06:431][960]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.58.20:744][144]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.58.20:770][144]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.58.20:818][144]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.06.23-20.58.21:877][206]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.58.23:538][291]MaterialEditorStats: Info Base pass shader: 91 instructions
+[2017.06.23-20.58.23:538][291]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.58.23:538][291]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.23-20.58.23:538][291]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.58.29:634][821]LogMaterialEditor: Saving and Compiling material tumbleweed
+[2017.06.23-20.58.30:220][821]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.58.30:284][821]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.58.30:349][821]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.58.30:420][821]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy tumbleweed, compiling. 
+[2017.06.23-20.58.31:521][821]TextureStreamingBuild:Display: Compiling optional shaders took 1.109 seconds.
+[2017.06.23-20.58.33:600][821]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/tumbleweed" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Materials/tumbleweed.uasset" SILENT=true
+[2017.06.23-20.58.33:615][821]LogSavePackage: Save=11.78ms
+[2017.06.23-20.58.33:615][821]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/tumbleweedAFE193204F07F4B933BA8188EE98973C.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Materials/tumbleweed.uasset'
+[2017.06.23-20.58.33:616][821]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Materials/tumbleweed.uasset
+[2017.06.23-20.58.33:622][821]MaterialEditorStats: Info Base pass shader: 91 instructions
+[2017.06.23-20.58.33:622][821]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2017.06.23-20.58.33:622][821]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.23-20.58.33:622][821]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-21.00.19:333][397]LogMaterial:Warning: Material /Game/Materials/GtassTall.GtassTall needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2017.06.23-21.00.19:337][397]LogMaterial: Missing cached shader map for material GtassTall, compiling. 
+[2017.06.23-21.00.19:395][397]LogMaterial:Warning: Material /Game/Materials/TreeGreens1.TreeGreens1 needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2017.06.23-21.00.19:399][397]LogMaterial: Missing cached shader map for material TreeGreens1, compiling. 
+[2017.06.23-21.00.19:459][397]LogMaterial:Warning: Material /Game/Materials/Palette1.Palette1 needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2017.06.23-21.00.19:463][397]LogMaterial: Missing cached shader map for material Palette1, compiling. 
+[2017.06.23-21.00.19:493][397]LogMaterial:Warning: Material /Game/Materials/HangingGreens1.HangingGreens1 needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2017.06.23-21.00.19:496][397]LogMaterial: Missing cached shader map for material HangingGreens1, compiling. 
+[2017.06.23-21.00.33:393][153]Cmd: TRANSACTION UNDO
+[2017.06.23-21.00.33:393][153]LogEditorTransaction: Undo Foliage Editing
+[2017.06.23-21.00.48:442][150]Cmd: TRANSACTION UNDO
+[2017.06.23-21.00.48:442][150]LogEditorTransaction: Undo Foliage Editing
+[2017.06.23-21.01.00:891][950]LogRenderer: Reallocating scene render targets to support 1080x520 NumSamples 1 (Frame:1).

@@ -1,0 +1,716 @@
+﻿Log file open, 06/30/17 10:52:35
+LogInit:Display: Running engine for game: Hunter
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1388511084) SRandInit(1388511084).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.087530
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: E:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.30-09.52.35:621][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.30-09.52.35:621][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.30-09.52.35:638][  0]LogInit: Computer: SNOOP-PC
+[2017.06.30-09.52.35:638][  0]LogInit: User: Snoop
+[2017.06.30-09.52.35:638][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.06.30-09.52.35:638][  0]LogInit: High frequency timer resolution =3.410253 MHz
+[2017.06.30-09.52.35:639][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.06.30-09.52.35:639][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.30-09.52.35:639][  0]LogMemory: Process Physical Memory: 274.79 MB used, 274.79 MB peak
+[2017.06.30-09.52.35:639][  0]LogMemory: Process Virtual Memory: 264.66 MB used, 264.66 MB peak
+[2017.06.30-09.52.35:639][  0]LogMemory: Physical Memory: 5111.39 MB used,  11221.49 MB free, 16332.88 MB total
+[2017.06.30-09.52.35:639][  0]LogMemory: Virtual Memory: 624.41 MB used,  11221.49 MB free, 8388608.00 MB total
+[2017.06.30-09.52.35:717][  0]LogInit: Using OS detected language (en-US).
+[2017.06.30-09.52.35:717][  0]LogInit: Using OS detected locale (en-US).
+[2017.06.30-09.52.35:720][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.06.30-09.52.36:555][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.30-09.52.36:581][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 560' (Feature Level 11_0)
+[2017.06.30-09.52.36:581][  0]LogD3D11RHI:       979/0/3071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.06.30-09.52.36:581][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.30-09.52.36:585][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.30-09.52.36:585][  0]LogD3D11RHI:     GPU DeviceId: 0x1201 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.30-09.52.36:585][  0]LogWindows: EnumDisplayDevices:
+[2017.06.30-09.52.36:585][  0]LogWindows:    0. 'NVIDIA GeForce GTX 560' (P:1 D:1)
+[2017.06.30-09.52.36:585][  0]LogWindows:    1. 'NVIDIA GeForce GTX 560' (P:0 D:0)
+[2017.06.30-09.52.36:585][  0]LogWindows:    2. 'RDPDD Chained DD' (P:0 D:0)
+[2017.06.30-09.52.36:585][  0]LogWindows:    3. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.06.30-09.52.36:585][  0]LogWindows:    4. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.06.30-09.52.36:585][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:2 
+[2017.06.30-09.52.36:585][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 560
+[2017.06.30-09.52.36:585][  0]LogD3D11RHI:   Driver Version: 378.92 (internal:21.21.13.7892, unified:378.92)
+[2017.06.30-09.52.36:585][  0]LogD3D11RHI:      Driver Date: 3-16-2017
+[2017.06.30-09.52.36:585][  0]LogRHI: Texture pool is 685 MB (70% of 979 MB)
+[2017.06.30-09.52.36:594][  0]LogD3D11RHI:Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.06.30-09.52.36:594][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.30-09.52.36:608][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.06.30-09.52.36:654][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Intermediate/Shaders/WorkingDirectory/4572/).
+[2017.06.30-09.52.36:654][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Snoop/AppData/Local/Temp/UnrealShaderWorkingDir/57FE520B46CB0145DA6F12B81963405D/'.
+[2017.06.30-09.52.36:654][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.30-09.52.37:664][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.30-09.52.37:710][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.30-09.52.37:756][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.30-09.52.37:802][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.30-09.52.37:848][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.30-09.52.37:895][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.30-09.52.37:941][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.30-09.52.37:988][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.30-09.52.38:028][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.30-09.52.38:072][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.30-09.52.38:118][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.30-09.52.38:164][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.30-09.52.38:209][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.30-09.52.38:254][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.30-09.52.38:298][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.30-09.52.38:389][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.30-09.52.38:389][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.30-09.52.38:424][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.30-09.52.38:506][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.30-09.52.38:531][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.30-09.52.38:576][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.30-09.52.38:622][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.30-09.52.38:667][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.30-09.52.38:712][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.30-09.52.38:712][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.30-09.52.39:133][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.30-09.52.39:216][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/Snoop/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.30-09.52.39:216][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Snoop/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.06.30-09.52.39:216][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.30-09.52.39:216][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.30-09.52.39:216][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.30-09.52.39:216][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.30-09.52.39:233][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.30-09.52.39:245][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Snoop/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.30-09.52.39:255][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.06.30-09.52.39:255][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.30-09.52.39:256][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.30-09.52.39:256][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.30-09.52.39:637][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.30-09.52.39:642][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.30-09.52.39:860][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.30-09.52.39:900][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.30-09.52.39:944][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.30-09.52.39:944][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.30-09.52.39:944][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.30-09.52.40:399][  0]LogNetVersion: Hunter , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3400572679)
+[2017.06.30-09.52.40:456][  0]LogAssetRegistry: FAssetRegistry took 0.0243 seconds to start up
+[2017.06.30-09.52.40:495][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.023606 seconds
+[2017.06.30-09.52.40:500][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.06.30-09.52.40:500][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.06.30-09.52.40:500][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.30-09.52.40:547][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.30-09.52.42:746][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.30-09.52.42:783][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.30-09.52.43:300][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.30-09.52.43:673][  0]SourceControl: Info Source control is disabled
+[2017.06.30-09.52.43:689][  0]SourceControl: Info Source control is disabled
+[2017.06.30-09.52.43:735][  0]SourceControl: Info Source control is disabled
+[2017.06.30-09.52.43:781][  0]SourceControl: Info Source control is disabled
+[2017.06.30-09.52.44:415][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.06.30-09.52.44:976][  0]LogEngine: Initializing Engine...
+[2017.06.30-09.52.44:977][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.30-09.52.45:168][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.30-09.52.45:168][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.30-09.52.45:285][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.30-09.52.45:303][  0]LogInit: XAudio2 using 'LG TV-14 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.30-09.52.45:342][  0]LogInit: FAudioDevice initialized.
+[2017.06.30-09.52.45:389][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/Snoop/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.30-09.52.45:394][  0]LogInit: Texture streaming: Enabled
+[2017.06.30-09.52.45:474][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.30-09.52.45:666][  0]LogInit: Transaction tracking system initialized
+[2017.06.30-09.52.45:943][  0]BlueprintLog: New page: Editor Load
+[2017.06.30-09.52.46:779][  0]LocalizationService: Info Localization service is disabled
+[2017.06.30-09.52.47:679][  0]LogConsoleResponse:Display: 
+[2017.06.30-09.52.47:820][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.30-09.52.47:820][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.30-09.52.47:952][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Snoop/Documents/Unreal Projects/Hunter/Content/' took 0.02s
+[2017.06.30-09.52.48:758][  0]SourceControl: Info Source control is disabled
+[2017.06.30-09.52.48:758][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.30-09.52.48:759][  0]LightingResults: New page: Lighting Build
+[2017.06.30-09.52.48:795][  0]MapCheck: New page: Map Check
+[2017.06.30-09.52.48:795][  0]LightingResults: New page: Lighting Build
+[2017.06.30-09.52.49:790][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.06.30-09.52.50:305][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.30-09.52.50:319][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.30-09.52.50:377][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 57.854ms to complete.
+[2017.06.30-09.52.50:377][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.619
+[2017.06.30-09.52.50:499][  0]LogCollectionManager: Loaded 0 collections in 0.001753 seconds
+[2017.06.30-09.52.50:569][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Collections/' took 0.01s
+[2017.06.30-09.52.50:569][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Snoop/Documents/Unreal Projects/Hunter/Content/Developers/Snoop/Collections/' took 0.01s
+[2017.06.30-09.52.50:569][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Snoop/Documents/Unreal Projects/Hunter/Content/Collections/' took 0.01s
+[2017.06.30-09.52.50:569][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.06.30-09.52.50:578][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2329 classes and 491 folders.
+[2017.06.30-09.52.50:632][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.06.30-09.52.50:678][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.06.30-09.52.50:717][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.06.30-09.52.50:805][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.30-09.52.50:809][  0]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.30-09.52.50:812][  0]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.30-09.52.50:814][  0]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.30-09.52.50:899][  0]LogRenderer: Reallocating scene render targets to support 1136x340 NumSamples 1 (Frame:1).
+[2017.06.30-09.52.51:030][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.30-09.52.51:090][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.06.30-09.52.51:090][  0]LogLoad: (Engine Initialization) Total time: 17.03 seconds
+[2017.06.30-09.52.51:090][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.10 seconds
+[2017.06.30-09.52.51:090][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.06.30-09.52.51:100][  0]LogOcInput: OculusInput pre-init called
+[2017.06.30-09.52.51:100][  0]LogHMD: Starting GearVRController plugin
+[2017.06.30-09.52.51:119][  0]LogContentStreaming: Texture pool size now 400 MB
+[2017.06.30-09.52.51:162][  0]LogSlate: Took 0.000261 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.30-09.52.51:181][  1]LogAssetRegistry: Asset discovery search completed in 10.7453 seconds
+[2017.06.30-09.52.51:182][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.06.30-09.52.51:182][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000022 seconds (updated 0 objects)
+[2017.06.30-09.52.56:648][458]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.30-09.52.56:693][458]LogLinker:Warning: Can't find file '/Game/Characters/Character1_PhysicsAsset'
+[2017.06.30-09.52.56:693][458]LogLinker:Warning: Can't find file for asset '/Game/Characters/Character1_PhysicsAsset' while loading ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1.uasset.
+[2017.06.30-09.52.56:693][458]LoadErrors:Error: Error /Game/Characters/Character1 : Can't find file for asset. /Game/Characters/Character1_PhysicsAsset
+[2017.06.30-09.52.56:693][458]LogLinker:Warning: Can't find file '/Game/Characters/Character1_PhysicsAsset'
+[2017.06.30-09.52.56:693][458]LogLinker:Warning: Can't find file for asset '/Game/Characters/Character1_PhysicsAsset' while loading ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1.uasset.
+[2017.06.30-09.52.56:694][458]LogLinker:Warning: Can't find file '/Game/Characters/Character1_PhysicsAsset'
+[2017.06.30-09.52.56:694][458]LoadErrors: Info Failed to load /Game/Characters/Character1_PhysicsAsset.Character1_PhysicsAsset Referenced by Character1
+[2017.06.30-09.52.56:694][458]LogLinker:Warning: Can't find file for asset '/Game/Characters/Character1_PhysicsAsset' while loading NULL.
+[2017.06.30-09.52.56:738][458]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.06.30-09.52.56:856][458]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.06.30-09.52.57:218][458]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0006 seconds. Added 1 classes and 0 folders.
+[2017.06.30-09.52.57:224][458]LogRenderer: Reallocating scene render targets to support 1136x364 NumSamples 1 (Frame:1).
+[2017.06.30-09.52.57:224][458]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.06.30-09.53.12:519][599]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_2' or package '/Engine/Transient'.
+[2017.06.30-09.53.12:519][599]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'AnimPreviewInstance_0' or package '/Engine/Transient'.
+[2017.06.30-09.53.12:519][599]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DebugSkelMeshComponent_0' or package '/Engine/Transient'.
+[2017.06.30-09.53.39:435][ 58]LogSlate: Took 0.000419 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.30-09.53.54:720][494]AssetReimport: New page: Outstanding source content changes 11:53:54 AM
+[2017.06.30-09.55.06:318][818]AssetReimport: New page: Outstanding source content changes 11:55:06 AM
+[2017.06.30-09.55.06:321][818]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:/Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1.fbx)
+[2017.06.30-09.55.06:327][818]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.06.30-09.55.06:327][818]LogFbx: ItemName: NodeAttribute, ItemCount : 7
+[2017.06.30-09.55.06:327][818]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.06.30-09.55.06:327][818]LogFbx: ItemName: Model, ItemCount : 8
+[2017.06.30-09.55.06:327][818]LogFbx: ItemName: Pose, ItemCount : 1
+[2017.06.30-09.55.06:327][818]LogFbx: ItemName: Deformer, ItemCount : 7
+[2017.06.30-09.55.06:327][818]LogFbx: ItemName: AnimationStack, ItemCount : 16
+[2017.06.30-09.55.06:327][818]LogFbx: ItemName: AnimationLayer, ItemCount : 16
+[2017.06.30-09.55.06:327][818]LogFbx: ItemName: AnimationCurveNode, ItemCount : 336
+[2017.06.30-09.55.06:327][818]LogFbx: ItemName: AnimationCurve, ItemCount : 1008
+[2017.06.30-09.55.06:332][818]LogFbx: Loading FBX Scene from E:/Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1.fbx
+[2017.06.30-09.55.06:369][818]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.30-09.55.14:828][818]LogFbx: Loading FBX Scene from E:/Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1.fbx
+[2017.06.30-09.55.14:872][818]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.30-09.55.14:876][818]LogFbx: =================================================
+[2017.06.30-09.55.14:876][818]LogFbx: Dumping Node START [Cube.014] 
+[2017.06.30-09.55.14:876][818]LogFbx: 	Total Deformer Count 1984742080.
+[2017.06.30-09.55.14:876][818]LogFbx: 		[Node 1] pLAYERaRMATURE1 (Type Skin).
+[2017.06.30-09.55.14:876][818]LogFbx: =================================================
+[2017.06.30-09.55.14:876][818]LogFbx: 	Attribute (Cube.018) Type (4).
+[2017.06.30-09.55.14:876][818]LogFbx: 		[Node Attribute Child 1] Cube.014 (Type Mesh).
+[2017.06.30-09.55.14:876][818]LogFbx: Dumping Node END [Cube.014]
+[2017.06.30-09.55.14:876][818]LogFbx: =================================================
+[2017.06.30-09.55.14:876][818]LogFbx: Dumping Node START [Cube.014] 
+[2017.06.30-09.55.14:876][818]LogFbx: 	Total Deformer Count 1984741744.
+[2017.06.30-09.55.14:876][818]LogFbx: 		[Node 1] pLAYERaRMATURE1 (Type Skin).
+[2017.06.30-09.55.14:876][818]LogFbx: =================================================
+[2017.06.30-09.55.14:876][818]LogFbx: 	Attribute (Cube.018) Type (4).
+[2017.06.30-09.55.14:876][818]LogFbx: 		[Node Attribute Child 1] Cube.014 (Type Mesh).
+[2017.06.30-09.55.14:876][818]LogFbx: Dumping Node END [Cube.014]
+[2017.06.30-09.55.14:877][818]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Cube.014
+[2017.06.30-09.55.14:877][818]LogFbx: Triangulating skeletal mesh Cube.014
+[2017.06.30-09.55.15:381][818]LogSkeletalMesh: Section 0: 2041 vertices, 6 active bones
+[2017.06.30-09.55.15:383][818]LogSkeletalMesh: Section 0: Material=0, 4455 triangles
+[2017.06.30-09.55.15:384][818]LogLinker: Can't find file '/Game/Characters/Character1_Skeleton'
+[2017.06.30-09.55.15:384][818]LogLinker: Can't find file '/Game/Characters/Character1_Skeleton'
+[2017.06.30-09.55.15:385][818]LogLinker: Can't find file '/Game/Characters/Character1_PhysicsAsset'
+[2017.06.30-09.55.15:385][818]LogLinker: Can't find file '/Game/Characters/Character1_PhysicsAsset'
+[2017.06.30-09.55.15:388][818]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: SkeletalMeshComponent0
+[2017.06.30-09.55.15:390][818]LogFbx: =================================================
+[2017.06.30-09.55.15:390][818]LogFbx: Dumping Node START [Cube.014] 
+[2017.06.30-09.55.15:390][818]LogFbx: 	Total Deformer Count 1984754176.
+[2017.06.30-09.55.15:390][818]LogFbx: 		[Node 1] pLAYERaRMATURE1 (Type Skin).
+[2017.06.30-09.55.15:390][818]LogFbx: =================================================
+[2017.06.30-09.55.15:390][818]LogFbx: 	Attribute (Cube.018) Type (4).
+[2017.06.30-09.55.15:390][818]LogFbx: 		[Node Attribute Child 1] Cube.014 (Type Mesh).
+[2017.06.30-09.55.15:390][818]LogFbx: Dumping Node END [Cube.014]
+[2017.06.30-09.55.15:390][818]LogFbx: =================================================
+[2017.06.30-09.55.15:390][818]LogFbx: Dumping Node START [Cube.014] 
+[2017.06.30-09.55.15:390][818]LogFbx: 	Total Deformer Count 1984744712.
+[2017.06.30-09.55.15:390][818]LogFbx: 		[Node 1] pLAYERaRMATURE1 (Type Skin).
+[2017.06.30-09.55.15:390][818]LogFbx: =================================================
+[2017.06.30-09.55.15:390][818]LogFbx: 	Attribute (Cube.018) Type (4).
+[2017.06.30-09.55.15:390][818]LogFbx: 		[Node Attribute Child 1] Cube.014 (Type Mesh).
+[2017.06.30-09.55.15:390][818]LogFbx: Dumping Node END [Cube.014]
+[2017.06.30-09.55.15:390][818]LogFbx: SortedLinks :(0) pLAYERaRMATURE1
+[2017.06.30-09.55.15:390][818]LogFbx: SortedLinks :(1) Body
+[2017.06.30-09.55.15:390][818]LogFbx: SortedLinks :(2) LeftArm
+[2017.06.30-09.55.15:390][818]LogFbx: SortedLinks :(3) LeftArm_end
+[2017.06.30-09.55.15:390][818]LogFbx: SortedLinks :(4) RightArm
+[2017.06.30-09.55.15:390][818]LogFbx: SortedLinks :(5) RightArm_end
+[2017.06.30-09.55.15:390][818]LogFbx: SortedLinks :(6) Head
+[2017.06.30-09.55.15:390][818]LogFbx: SortedLinks :(7) Head_end
+[2017.06.30-09.55.15:390][818]LogFbx: SortedLinks :(8) LeftLeg
+[2017.06.30-09.55.15:390][818]LogFbx: SortedLinks :(9) LeftLeg_end
+[2017.06.30-09.55.15:390][818]LogFbx: SortedLinks :(10) RightLeg
+[2017.06.30-09.55.15:390][818]LogFbx: SortedLinks :(11) RightLeg_end
+[2017.06.30-09.55.15:390][818]LogFbx: SortedLinks :(0) pLAYERaRMATURE1
+[2017.06.30-09.55.15:390][818]LogFbx: SortedLinks :(1) Body
+[2017.06.30-09.55.15:390][818]LogFbx: SortedLinks :(2) LeftArm
+[2017.06.30-09.55.15:390][818]LogFbx: SortedLinks :(3) LeftArm_end
+[2017.06.30-09.55.15:390][818]LogFbx: SortedLinks :(4) RightArm
+[2017.06.30-09.55.15:390][818]LogFbx: SortedLinks :(5) RightArm_end
+[2017.06.30-09.55.15:390][818]LogFbx: SortedLinks :(6) Head
+[2017.06.30-09.55.15:391][818]LogFbx: SortedLinks :(7) Head_end
+[2017.06.30-09.55.15:391][818]LogFbx: SortedLinks :(8) LeftLeg
+[2017.06.30-09.55.15:391][818]LogFbx: SortedLinks :(9) LeftLeg_end
+[2017.06.30-09.55.15:391][818]LogFbx: SortedLinks :(10) RightLeg
+[2017.06.30-09.55.15:391][818]LogFbx: SortedLinks :(11) RightLeg_end
+[2017.06.30-09.55.15:391][818]LogFbx: SortedLinks :(0) pLAYERaRMATURE1
+[2017.06.30-09.55.15:391][818]LogFbx: SortedLinks :(1) Body
+[2017.06.30-09.55.15:391][818]LogFbx: SortedLinks :(2) LeftArm
+[2017.06.30-09.55.15:391][818]LogFbx: SortedLinks :(3) LeftArm_end
+[2017.06.30-09.55.15:391][818]LogFbx: SortedLinks :(4) RightArm
+[2017.06.30-09.55.15:391][818]LogFbx: SortedLinks :(5) RightArm_end
+[2017.06.30-09.55.15:391][818]LogFbx: SortedLinks :(6) Head
+[2017.06.30-09.55.15:391][818]LogFbx: SortedLinks :(7) Head_end
+[2017.06.30-09.55.15:391][818]LogFbx: SortedLinks :(8) LeftLeg
+[2017.06.30-09.55.15:391][818]LogFbx: SortedLinks :(9) LeftLeg_end
+[2017.06.30-09.55.15:391][818]LogFbx: SortedLinks :(10) RightLeg
+[2017.06.30-09.55.15:391][818]LogFbx: SortedLinks :(11) RightLeg_end
+[2017.06.30-09.55.15:391][818]LogFbx: SortedLinks :(0) pLAYERaRMATURE1
+[2017.06.30-09.55.15:391][818]LogFbx: SortedLinks :(1) Body
+[2017.06.30-09.55.15:391][818]LogFbx: SortedLinks :(2) LeftArm
+[2017.06.30-09.55.15:391][818]LogFbx: SortedLinks :(3) LeftArm_end
+[2017.06.30-09.55.15:391][818]LogFbx: SortedLinks :(4) RightArm
+[2017.06.30-09.55.15:391][818]LogFbx: SortedLinks :(5) RightArm_end
+[2017.06.30-09.55.15:391][818]LogFbx: SortedLinks :(6) Head
+[2017.06.30-09.55.15:391][818]LogFbx: SortedLinks :(7) Head_end
+[2017.06.30-09.55.15:391][818]LogFbx: SortedLinks :(8) LeftLeg
+[2017.06.30-09.55.15:391][818]LogFbx: SortedLinks :(9) LeftLeg_end
+[2017.06.30-09.55.15:391][818]LogFbx: SortedLinks :(10) RightLeg
+[2017.06.30-09.55.15:391][818]LogFbx: SortedLinks :(11) RightLeg_end
+[2017.06.30-09.55.15:392][818]LogFbx: SortedLinks :(0) pLAYERaRMATURE1
+[2017.06.30-09.55.15:392][818]LogFbx: SortedLinks :(1) Body
+[2017.06.30-09.55.15:392][818]LogFbx: SortedLinks :(2) LeftArm
+[2017.06.30-09.55.15:392][818]LogFbx: SortedLinks :(3) LeftArm_end
+[2017.06.30-09.55.15:392][818]LogFbx: SortedLinks :(4) RightArm
+[2017.06.30-09.55.15:392][818]LogFbx: SortedLinks :(5) RightArm_end
+[2017.06.30-09.55.15:392][818]LogFbx: SortedLinks :(6) Head
+[2017.06.30-09.55.15:392][818]LogFbx: SortedLinks :(7) Head_end
+[2017.06.30-09.55.15:392][818]LogFbx: SortedLinks :(8) LeftLeg
+[2017.06.30-09.55.15:392][818]LogFbx: SortedLinks :(9) LeftLeg_end
+[2017.06.30-09.55.15:392][818]LogFbx: SortedLinks :(10) RightLeg
+[2017.06.30-09.55.15:392][818]LogFbx: SortedLinks :(11) RightLeg_end
+[2017.06.30-09.55.15:392][818]LogFbx: SortedLinks :(0) pLAYERaRMATURE1
+[2017.06.30-09.55.15:392][818]LogFbx: SortedLinks :(1) Body
+[2017.06.30-09.55.15:392][818]LogFbx: SortedLinks :(2) LeftArm
+[2017.06.30-09.55.15:392][818]LogFbx: SortedLinks :(3) LeftArm_end
+[2017.06.30-09.55.15:392][818]LogFbx: SortedLinks :(4) RightArm
+[2017.06.30-09.55.15:392][818]LogFbx: SortedLinks :(5) RightArm_end
+[2017.06.30-09.55.15:392][818]LogFbx: SortedLinks :(6) Head
+[2017.06.30-09.55.15:392][818]LogFbx: SortedLinks :(7) Head_end
+[2017.06.30-09.55.15:392][818]LogFbx: SortedLinks :(8) LeftLeg
+[2017.06.30-09.55.15:392][818]LogFbx: SortedLinks :(9) LeftLeg_end
+[2017.06.30-09.55.15:392][818]LogFbx: SortedLinks :(10) RightLeg
+[2017.06.30-09.55.15:392][818]LogFbx: SortedLinks :(11) RightLeg_end
+[2017.06.30-09.55.15:392][818]LogFbx: SortedLinks :(0) pLAYERaRMATURE1
+[2017.06.30-09.55.15:392][818]LogFbx: SortedLinks :(1) Body
+[2017.06.30-09.55.15:392][818]LogFbx: SortedLinks :(2) LeftArm
+[2017.06.30-09.55.15:392][818]LogFbx: SortedLinks :(3) LeftArm_end
+[2017.06.30-09.55.15:392][818]LogFbx: SortedLinks :(4) RightArm
+[2017.06.30-09.55.15:392][818]LogFbx: SortedLinks :(5) RightArm_end
+[2017.06.30-09.55.15:392][818]LogFbx: SortedLinks :(6) Head
+[2017.06.30-09.55.15:392][818]LogFbx: SortedLinks :(7) Head_end
+[2017.06.30-09.55.15:392][818]LogFbx: SortedLinks :(8) LeftLeg
+[2017.06.30-09.55.15:392][818]LogFbx: SortedLinks :(9) LeftLeg_end
+[2017.06.30-09.55.15:392][818]LogFbx: SortedLinks :(10) RightLeg
+[2017.06.30-09.55.15:392][818]LogFbx: SortedLinks :(11) RightLeg_end
+[2017.06.30-09.55.15:393][818]LogFbx: SortedLinks :(0) pLAYERaRMATURE1
+[2017.06.30-09.55.15:393][818]LogFbx: SortedLinks :(1) Body
+[2017.06.30-09.55.15:393][818]LogFbx: SortedLinks :(2) LeftArm
+[2017.06.30-09.55.15:393][818]LogFbx: SortedLinks :(3) LeftArm_end
+[2017.06.30-09.55.15:393][818]LogFbx: SortedLinks :(4) RightArm
+[2017.06.30-09.55.15:393][818]LogFbx: SortedLinks :(5) RightArm_end
+[2017.06.30-09.55.15:393][818]LogFbx: SortedLinks :(6) Head
+[2017.06.30-09.55.15:393][818]LogFbx: SortedLinks :(7) Head_end
+[2017.06.30-09.55.15:393][818]LogFbx: SortedLinks :(8) LeftLeg
+[2017.06.30-09.55.15:393][818]LogFbx: SortedLinks :(9) LeftLeg_end
+[2017.06.30-09.55.15:393][818]LogFbx: SortedLinks :(10) RightLeg
+[2017.06.30-09.55.15:393][818]LogFbx: SortedLinks :(11) RightLeg_end
+[2017.06.30-09.55.15:393][818]LogFbx: SortedLinks :(0) pLAYERaRMATURE1
+[2017.06.30-09.55.15:393][818]LogFbx: SortedLinks :(1) Body
+[2017.06.30-09.55.15:393][818]LogFbx: SortedLinks :(2) LeftArm
+[2017.06.30-09.55.15:393][818]LogFbx: SortedLinks :(3) LeftArm_end
+[2017.06.30-09.55.15:393][818]LogFbx: SortedLinks :(4) RightArm
+[2017.06.30-09.55.15:393][818]LogFbx: SortedLinks :(5) RightArm_end
+[2017.06.30-09.55.15:393][818]LogFbx: SortedLinks :(6) Head
+[2017.06.30-09.55.15:393][818]LogFbx: SortedLinks :(7) Head_end
+[2017.06.30-09.55.15:393][818]LogFbx: SortedLinks :(8) LeftLeg
+[2017.06.30-09.55.15:393][818]LogFbx: SortedLinks :(9) LeftLeg_end
+[2017.06.30-09.55.15:393][818]LogFbx: SortedLinks :(10) RightLeg
+[2017.06.30-09.55.15:393][818]LogFbx: SortedLinks :(11) RightLeg_end
+[2017.06.30-09.55.15:393][818]LogFbx: SortedLinks :(0) pLAYERaRMATURE1
+[2017.06.30-09.55.15:393][818]LogFbx: SortedLinks :(1) Body
+[2017.06.30-09.55.15:393][818]LogFbx: SortedLinks :(2) LeftArm
+[2017.06.30-09.55.15:393][818]LogFbx: SortedLinks :(3) LeftArm_end
+[2017.06.30-09.55.15:393][818]LogFbx: SortedLinks :(4) RightArm
+[2017.06.30-09.55.15:393][818]LogFbx: SortedLinks :(5) RightArm_end
+[2017.06.30-09.55.15:393][818]LogFbx: SortedLinks :(6) Head
+[2017.06.30-09.55.15:393][818]LogFbx: SortedLinks :(7) Head_end
+[2017.06.30-09.55.15:393][818]LogFbx: SortedLinks :(8) LeftLeg
+[2017.06.30-09.55.15:394][818]LogFbx: SortedLinks :(9) LeftLeg_end
+[2017.06.30-09.55.15:394][818]LogFbx: SortedLinks :(10) RightLeg
+[2017.06.30-09.55.15:394][818]LogFbx: SortedLinks :(11) RightLeg_end
+[2017.06.30-09.55.15:394][818]LogFbx: SortedLinks :(0) pLAYERaRMATURE1
+[2017.06.30-09.55.15:394][818]LogFbx: SortedLinks :(1) Body
+[2017.06.30-09.55.15:394][818]LogFbx: SortedLinks :(2) LeftArm
+[2017.06.30-09.55.15:394][818]LogFbx: SortedLinks :(3) LeftArm_end
+[2017.06.30-09.55.15:394][818]LogFbx: SortedLinks :(4) RightArm
+[2017.06.30-09.55.15:394][818]LogFbx: SortedLinks :(5) RightArm_end
+[2017.06.30-09.55.15:394][818]LogFbx: SortedLinks :(6) Head
+[2017.06.30-09.55.15:394][818]LogFbx: SortedLinks :(7) Head_end
+[2017.06.30-09.55.15:394][818]LogFbx: SortedLinks :(8) LeftLeg
+[2017.06.30-09.55.15:394][818]LogFbx: SortedLinks :(9) LeftLeg_end
+[2017.06.30-09.55.15:394][818]LogFbx: SortedLinks :(10) RightLeg
+[2017.06.30-09.55.15:394][818]LogFbx: SortedLinks :(11) RightLeg_end
+[2017.06.30-09.55.15:394][818]LogFbx: SortedLinks :(0) pLAYERaRMATURE1
+[2017.06.30-09.55.15:394][818]LogFbx: SortedLinks :(1) Body
+[2017.06.30-09.55.15:394][818]LogFbx: SortedLinks :(2) LeftArm
+[2017.06.30-09.55.15:394][818]LogFbx: SortedLinks :(3) LeftArm_end
+[2017.06.30-09.55.15:394][818]LogFbx: SortedLinks :(4) RightArm
+[2017.06.30-09.55.15:394][818]LogFbx: SortedLinks :(5) RightArm_end
+[2017.06.30-09.55.15:394][818]LogFbx: SortedLinks :(6) Head
+[2017.06.30-09.55.15:394][818]LogFbx: SortedLinks :(7) Head_end
+[2017.06.30-09.55.15:394][818]LogFbx: SortedLinks :(8) LeftLeg
+[2017.06.30-09.55.15:394][818]LogFbx: SortedLinks :(9) LeftLeg_end
+[2017.06.30-09.55.15:394][818]LogFbx: SortedLinks :(10) RightLeg
+[2017.06.30-09.55.15:394][818]LogFbx: SortedLinks :(11) RightLeg_end
+[2017.06.30-09.55.15:395][818]LogFbx: SortedLinks :(0) pLAYERaRMATURE1
+[2017.06.30-09.55.15:395][818]LogFbx: SortedLinks :(1) Body
+[2017.06.30-09.55.15:395][818]LogFbx: SortedLinks :(2) LeftArm
+[2017.06.30-09.55.15:395][818]LogFbx: SortedLinks :(3) LeftArm_end
+[2017.06.30-09.55.15:395][818]LogFbx: SortedLinks :(4) RightArm
+[2017.06.30-09.55.15:395][818]LogFbx: SortedLinks :(5) RightArm_end
+[2017.06.30-09.55.15:395][818]LogFbx: SortedLinks :(6) Head
+[2017.06.30-09.55.15:395][818]LogFbx: SortedLinks :(7) Head_end
+[2017.06.30-09.55.15:395][818]LogFbx: SortedLinks :(8) LeftLeg
+[2017.06.30-09.55.15:395][818]LogFbx: SortedLinks :(9) LeftLeg_end
+[2017.06.30-09.55.15:395][818]LogFbx: SortedLinks :(10) RightLeg
+[2017.06.30-09.55.15:395][818]LogFbx: SortedLinks :(11) RightLeg_end
+[2017.06.30-09.55.15:395][818]LogFbx: SortedLinks :(0) pLAYERaRMATURE1
+[2017.06.30-09.55.15:395][818]LogFbx: SortedLinks :(1) Body
+[2017.06.30-09.55.15:395][818]LogFbx: SortedLinks :(2) LeftArm
+[2017.06.30-09.55.15:395][818]LogFbx: SortedLinks :(3) LeftArm_end
+[2017.06.30-09.55.15:395][818]LogFbx: SortedLinks :(4) RightArm
+[2017.06.30-09.55.15:395][818]LogFbx: SortedLinks :(5) RightArm_end
+[2017.06.30-09.55.15:395][818]LogFbx: SortedLinks :(6) Head
+[2017.06.30-09.55.15:395][818]LogFbx: SortedLinks :(7) Head_end
+[2017.06.30-09.55.15:395][818]LogFbx: SortedLinks :(8) LeftLeg
+[2017.06.30-09.55.15:395][818]LogFbx: SortedLinks :(9) LeftLeg_end
+[2017.06.30-09.55.15:395][818]LogFbx: SortedLinks :(10) RightLeg
+[2017.06.30-09.55.15:395][818]LogFbx: SortedLinks :(11) RightLeg_end
+[2017.06.30-09.55.15:395][818]LogFbx: SortedLinks :(0) pLAYERaRMATURE1
+[2017.06.30-09.55.15:395][818]LogFbx: SortedLinks :(1) Body
+[2017.06.30-09.55.15:395][818]LogFbx: SortedLinks :(2) LeftArm
+[2017.06.30-09.55.15:395][818]LogFbx: SortedLinks :(3) LeftArm_end
+[2017.06.30-09.55.15:395][818]LogFbx: SortedLinks :(4) RightArm
+[2017.06.30-09.55.15:395][818]LogFbx: SortedLinks :(5) RightArm_end
+[2017.06.30-09.55.15:395][818]LogFbx: SortedLinks :(6) Head
+[2017.06.30-09.55.15:395][818]LogFbx: SortedLinks :(7) Head_end
+[2017.06.30-09.55.15:395][818]LogFbx: SortedLinks :(8) LeftLeg
+[2017.06.30-09.55.15:395][818]LogFbx: SortedLinks :(9) LeftLeg_end
+[2017.06.30-09.55.15:395][818]LogFbx: SortedLinks :(10) RightLeg
+[2017.06.30-09.55.15:395][818]LogFbx: SortedLinks :(11) RightLeg_end
+[2017.06.30-09.55.15:396][818]LogFbx: SortedLinks :(0) pLAYERaRMATURE1
+[2017.06.30-09.55.15:396][818]LogFbx: SortedLinks :(1) Body
+[2017.06.30-09.55.15:396][818]LogFbx: SortedLinks :(2) LeftArm
+[2017.06.30-09.55.15:396][818]LogFbx: SortedLinks :(3) LeftArm_end
+[2017.06.30-09.55.15:396][818]LogFbx: SortedLinks :(4) RightArm
+[2017.06.30-09.55.15:396][818]LogFbx: SortedLinks :(5) RightArm_end
+[2017.06.30-09.55.15:396][818]LogFbx: SortedLinks :(6) Head
+[2017.06.30-09.55.15:396][818]LogFbx: SortedLinks :(7) Head_end
+[2017.06.30-09.55.15:396][818]LogFbx: SortedLinks :(8) LeftLeg
+[2017.06.30-09.55.15:396][818]LogFbx: SortedLinks :(9) LeftLeg_end
+[2017.06.30-09.55.15:396][818]LogFbx: SortedLinks :(10) RightLeg
+[2017.06.30-09.55.15:396][818]LogFbx: SortedLinks :(11) RightLeg_end
+[2017.06.30-09.55.15:399][818]LogFbx: Parsing AnimStack pLAYERaRMATURE1|Croutch
+[2017.06.30-09.55.15:400][818]LogLinker: Can't find file '/Game/Characters/Character1_Anim_pLAYERaRMATURE1_Croutch'
+[2017.06.30-09.55.15:400][818]LogLinker: Can't find file '/Game/Characters/Character1_Anim_pLAYERaRMATURE1_Croutch'
+[2017.06.30-09.55.15:416][818]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Character1_Anim_pLAYERaRMATURE1_Croutch.Character1_Anim_pLAYERaRMATURE1_Croutch
+[2017.06.30-09.55.15:418][818]LogFbx: Parsing AnimStack pLAYERaRMATURE1|Croutch1Walk
+[2017.06.30-09.55.15:419][818]LogLinker: Can't find file '/Game/Characters/Character1_Anim_pLAYERaRMATURE1_Croutch1Walk'
+[2017.06.30-09.55.15:419][818]LogLinker: Can't find file '/Game/Characters/Character1_Anim_pLAYERaRMATURE1_Croutch1Walk'
+[2017.06.30-09.55.15:429][818]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Character1_Anim_pLAYERaRMATURE1_Croutch1Walk.Character1_Anim_pLAYERaRMATURE1_Croutch1Walk
+[2017.06.30-09.55.15:430][818]LogFbx: Parsing AnimStack pLAYERaRMATURE1|Croutch1WithGun
+[2017.06.30-09.55.15:431][818]LogLinker: Can't find file '/Game/Characters/Character1_Anim_pLAYERaRMATURE1_Croutch1WithGun'
+[2017.06.30-09.55.15:431][818]LogLinker: Can't find file '/Game/Characters/Character1_Anim_pLAYERaRMATURE1_Croutch1WithGun'
+[2017.06.30-09.55.15:440][818]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Character1_Anim_pLAYERaRMATURE1_Croutch1WithGun.Character1_Anim_pLAYERaRMATURE1_Croutch1WithGun
+[2017.06.30-09.55.15:442][818]LogFbx: Parsing AnimStack pLAYERaRMATURE1|CroutchIdle1
+[2017.06.30-09.55.15:443][818]LogLinker: Can't find file '/Game/Characters/Character1_Anim_pLAYERaRMATURE1_CroutchIdle1'
+[2017.06.30-09.55.15:443][818]LogLinker: Can't find file '/Game/Characters/Character1_Anim_pLAYERaRMATURE1_CroutchIdle1'
+[2017.06.30-09.55.15:452][818]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Character1_Anim_pLAYERaRMATURE1_CroutchIdle1.Character1_Anim_pLAYERaRMATURE1_CroutchIdle1
+[2017.06.30-09.55.15:454][818]LogFbx: Parsing AnimStack pLAYERaRMATURE1|CroutchIdle1WithGun
+[2017.06.30-09.55.15:454][818]LogLinker: Can't find file '/Game/Characters/Character1_Anim_pLAYERaRMATURE1_CroutchIdle1WithGun'
+[2017.06.30-09.55.15:454][818]LogLinker: Can't find file '/Game/Characters/Character1_Anim_pLAYERaRMATURE1_CroutchIdle1WithGun'
+[2017.06.30-09.55.15:464][818]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Character1_Anim_pLAYERaRMATURE1_CroutchIdle1WithGun.Character1_Anim_pLAYERaRMATURE1_CroutchIdle1WithGun
+[2017.06.30-09.55.15:465][818]LogFbx: Parsing AnimStack pLAYERaRMATURE1|CroutchWalk1WithGun
+[2017.06.30-09.55.15:466][818]LogLinker: Can't find file '/Game/Characters/Character1_Anim_pLAYERaRMATURE1_CroutchWalk1WithGun'
+[2017.06.30-09.55.15:466][818]LogLinker: Can't find file '/Game/Characters/Character1_Anim_pLAYERaRMATURE1_CroutchWalk1WithGun'
+[2017.06.30-09.55.15:481][818]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Character1_Anim_pLAYERaRMATURE1_CroutchWalk1WithGun.Character1_Anim_pLAYERaRMATURE1_CroutchWalk1WithGun
+[2017.06.30-09.55.15:482][818]LogFbx: Parsing AnimStack pLAYERaRMATURE1|Idle1
+[2017.06.30-09.55.15:484][818]LogLinker: Can't find file '/Game/Characters/Character1_Anim_pLAYERaRMATURE1_Idle1'
+[2017.06.30-09.55.15:484][818]LogLinker: Can't find file '/Game/Characters/Character1_Anim_pLAYERaRMATURE1_Idle1'
+[2017.06.30-09.55.15:528][818]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Character1_Anim_pLAYERaRMATURE1_Idle1.Character1_Anim_pLAYERaRMATURE1_Idle1
+[2017.06.30-09.55.15:530][818]LogFbx: Parsing AnimStack pLAYERaRMATURE1|Idle1WithGun
+[2017.06.30-09.55.15:531][818]LogLinker: Can't find file '/Game/Characters/Character1_Anim_pLAYERaRMATURE1_Idle1WithGun'
+[2017.06.30-09.55.15:531][818]LogLinker: Can't find file '/Game/Characters/Character1_Anim_pLAYERaRMATURE1_Idle1WithGun'
+[2017.06.30-09.55.15:540][818]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Character1_Anim_pLAYERaRMATURE1_Idle1WithGun.Character1_Anim_pLAYERaRMATURE1_Idle1WithGun
+[2017.06.30-09.55.15:542][818]LogFbx: Parsing AnimStack pLAYERaRMATURE1|Idle2
+[2017.06.30-09.55.15:543][818]LogLinker: Can't find file '/Game/Characters/Character1_Anim_pLAYERaRMATURE1_Idle2'
+[2017.06.30-09.55.15:543][818]LogLinker: Can't find file '/Game/Characters/Character1_Anim_pLAYERaRMATURE1_Idle2'
+[2017.06.30-09.55.15:579][818]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Character1_Anim_pLAYERaRMATURE1_Idle2.Character1_Anim_pLAYERaRMATURE1_Idle2
+[2017.06.30-09.55.15:581][818]LogFbx: Parsing AnimStack pLAYERaRMATURE1|Idle2WithGun
+[2017.06.30-09.55.15:582][818]LogLinker: Can't find file '/Game/Characters/Character1_Anim_pLAYERaRMATURE1_Idle2WithGun'
+[2017.06.30-09.55.15:582][818]LogLinker: Can't find file '/Game/Characters/Character1_Anim_pLAYERaRMATURE1_Idle2WithGun'
+[2017.06.30-09.55.15:601][818]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Character1_Anim_pLAYERaRMATURE1_Idle2WithGun.Character1_Anim_pLAYERaRMATURE1_Idle2WithGun
+[2017.06.30-09.55.15:603][818]LogFbx: Parsing AnimStack pLAYERaRMATURE1|Jump1
+[2017.06.30-09.55.15:604][818]LogLinker: Can't find file '/Game/Characters/Character1_Anim_pLAYERaRMATURE1_Jump1'
+[2017.06.30-09.55.15:604][818]LogLinker: Can't find file '/Game/Characters/Character1_Anim_pLAYERaRMATURE1_Jump1'
+[2017.06.30-09.55.15:613][818]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Character1_Anim_pLAYERaRMATURE1_Jump1.Character1_Anim_pLAYERaRMATURE1_Jump1
+[2017.06.30-09.55.15:615][818]LogFbx: Parsing AnimStack pLAYERaRMATURE1|Jump1WithGun
+[2017.06.30-09.55.15:616][818]LogLinker: Can't find file '/Game/Characters/Character1_Anim_pLAYERaRMATURE1_Jump1WithGun'
+[2017.06.30-09.55.15:616][818]LogLinker: Can't find file '/Game/Characters/Character1_Anim_pLAYERaRMATURE1_Jump1WithGun'
+[2017.06.30-09.55.15:642][818]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Character1_Anim_pLAYERaRMATURE1_Jump1WithGun.Character1_Anim_pLAYERaRMATURE1_Jump1WithGun
+[2017.06.30-09.55.15:644][818]LogFbx: Parsing AnimStack pLAYERaRMATURE1|Run1
+[2017.06.30-09.55.15:645][818]LogLinker: Can't find file '/Game/Characters/Character1_Anim_pLAYERaRMATURE1_Run1'
+[2017.06.30-09.55.15:645][818]LogLinker: Can't find file '/Game/Characters/Character1_Anim_pLAYERaRMATURE1_Run1'
+[2017.06.30-09.55.15:694][818]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Character1_Anim_pLAYERaRMATURE1_Run1.Character1_Anim_pLAYERaRMATURE1_Run1
+[2017.06.30-09.55.15:697][818]LogFbx: Parsing AnimStack pLAYERaRMATURE1|Run1WithGun
+[2017.06.30-09.55.15:699][818]LogLinker: Can't find file '/Game/Characters/Character1_Anim_pLAYERaRMATURE1_Run1WithGun'
+[2017.06.30-09.55.15:699][818]LogLinker: Can't find file '/Game/Characters/Character1_Anim_pLAYERaRMATURE1_Run1WithGun'
+[2017.06.30-09.55.15:721][818]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Character1_Anim_pLAYERaRMATURE1_Run1WithGun.Character1_Anim_pLAYERaRMATURE1_Run1WithGun
+[2017.06.30-09.55.15:722][818]LogFbx: Parsing AnimStack pLAYERaRMATURE1|Walk1
+[2017.06.30-09.55.15:723][818]LogLinker: Can't find file '/Game/Characters/Character1_Anim_pLAYERaRMATURE1_Walk1'
+[2017.06.30-09.55.15:723][818]LogLinker: Can't find file '/Game/Characters/Character1_Anim_pLAYERaRMATURE1_Walk1'
+[2017.06.30-09.55.15:732][818]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Character1_Anim_pLAYERaRMATURE1_Walk1.Character1_Anim_pLAYERaRMATURE1_Walk1
+[2017.06.30-09.55.15:734][818]LogFbx: Parsing AnimStack pLAYERaRMATURE1|walk1WithGun
+[2017.06.30-09.55.15:735][818]LogLinker: Can't find file '/Game/Characters/Character1_Anim_pLAYERaRMATURE1_walk1WithGun'
+[2017.06.30-09.55.15:735][818]LogLinker: Can't find file '/Game/Characters/Character1_Anim_pLAYERaRMATURE1_walk1WithGun'
+[2017.06.30-09.55.15:767][818]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Character1_Anim_pLAYERaRMATURE1_walk1WithGun.Character1_Anim_pLAYERaRMATURE1_walk1WithGun
+[2017.06.30-09.55.15:820][819]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Character1" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1.uasset" SILENT=true
+[2017.06.30-09.55.15:834][819]LogSavePackage: Save=12.14ms
+[2017.06.30-09.55.15:834][819]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Character1DA30FBD743807BF36931BEBE4325EDB1.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1.uasset'
+[2017.06.30-09.55.15:835][819]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1.uasset
+[2017.06.30-09.55.18:836][ 40]AssetReimport: Info Importing new asset /Game/Characters/Character1.
+[2017.06.30-09.55.22:172][239]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2017.06.30-09.55.22:209][239]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_6:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2017.06.30-09.55.22:401][239]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.30-09.55.22:440][240]LogRenderer: Reallocating scene render targets to support 1136x576 NumSamples 1 (Frame:1).
+[2017.06.30-09.55.36:237][226]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_2.DebugSkelMeshComponent_3) Already registered. Aborting.
+[2017.06.30-09.55.36:263][226]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_7:PersistentLevel.Actor_2.DebugSkelMeshComponent_3) - call TermArticulated first.
+[2017.06.30-09.55.50:377][314]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Character1_Skeleton" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Skeleton.uasset" SILENT=true
+[2017.06.30-09.55.50:379][314]LogSavePackage: Save=1.11ms
+[2017.06.30-09.55.50:379][314]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Character1_Skeleton337E65204BD71E97908DCDBF9162EB87.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Skeleton.uasset'
+[2017.06.30-09.55.50:381][314]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Skeleton.uasset
+[2017.06.30-09.55.57:866][773]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.Actor_3.DebugSkelMeshComponent_4) Already registered. Aborting.
+[2017.06.30-09.55.57:891][773]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.Actor_3.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2017.06.30-09.55.58:154][773]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.06.30-09.56.17:405][ 66]LogSavePackage: Save=8.16ms
+[2017.06.30-09.56.17:405][ 66]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Character1_Anim_pLAYERaRMATURE1_Idle16BF73C584C373B2F673A73BE3FE5E81D.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Anim_pLAYERaRMATURE1_Idle1.uasset'
+[2017.06.30-09.56.17:406][ 66]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Anim_pLAYERaRMATURE1_Idle1.uasset
+[2017.06.30-09.56.19:385][176]LogSavePackage: Save=25.22ms
+[2017.06.30-09.56.19:385][176]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Character1_Anim_pLAYERaRMATURE1_Idle1EFE9D5524052758A6E8046BE05A0E60F.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Anim_pLAYERaRMATURE1_Idle1.uasset'
+[2017.06.30-09.56.19:386][176]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Anim_pLAYERaRMATURE1_Idle1.uasset
+[2017.06.30-09.57.12:700][334]LogSavePackage: Save=8.09ms
+[2017.06.30-09.57.12:700][334]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Character1_Anim_pLAYERaRMATURE1_CroutchWalk1WithGunC6F7EF404D618FC0F4A23E913A027682.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Anim_pLAYERaRMATURE1_CroutchWalk1WithGun.uasset'
+[2017.06.30-09.57.12:701][334]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Anim_pLAYERaRMATURE1_CroutchWalk1WithGun.uasset
+[2017.06.30-09.57.13:362][371]LogSavePackage: Save=2.01ms
+[2017.06.30-09.57.13:362][371]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Character1_Anim_pLAYERaRMATURE1_CroutchWalk1WithGun020AED21427E789D93A9A1B09A6CA9FD.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Anim_pLAYERaRMATURE1_CroutchWalk1WithGun.uasset'
+[2017.06.30-09.57.13:363][371]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Anim_pLAYERaRMATURE1_CroutchWalk1WithGun.uasset
+[2017.06.30-09.57.13:526][380]LogSavePackage: Save=1.97ms
+[2017.06.30-09.57.13:526][380]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Character1_Anim_pLAYERaRMATURE1_CroutchWalk1WithGun145EF1EB4F6F8377C01E17B5D1E7F184.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Anim_pLAYERaRMATURE1_CroutchWalk1WithGun.uasset'
+[2017.06.30-09.57.13:527][380]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Anim_pLAYERaRMATURE1_CroutchWalk1WithGun.uasset
+[2017.06.30-09.57.16:898][633]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.Actor_4.DebugSkelMeshComponent_6) Already registered. Aborting.
+[2017.06.30-09.57.16:935][633]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.Actor_4.DebugSkelMeshComponent_6) - call TermArticulated first.
+[2017.06.30-09.57.17:163][633]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.06.30-09.57.20:926][914]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.Actor_5.DebugSkelMeshComponent_8) Already registered. Aborting.
+[2017.06.30-09.57.20:963][914]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.Actor_5.DebugSkelMeshComponent_8) - call TermArticulated first.
+[2017.06.30-09.57.22:494][982]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_6.DebugSkelMeshComponent_9) Already registered. Aborting.
+[2017.06.30-09.57.22:519][982]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_13:PersistentLevel.Actor_6.DebugSkelMeshComponent_9) - call TermArticulated first.
+[2017.06.30-09.57.22:760][982]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.06.30-09.57.54:202][291]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.Actor_7.DebugSkelMeshComponent_11) Already registered. Aborting.
+[2017.06.30-09.57.54:228][291]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_15:PersistentLevel.Actor_7.DebugSkelMeshComponent_11) - call TermArticulated first.
+[2017.06.30-09.58.43:652][852]Cmd: TRANSACTION UNDO
+[2017.06.30-09.58.43:652][852]LogEditorTransaction: Undo Rotate Bone
+[2017.06.30-09.58.43:957][852]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.Actor_7.DebugSkelMeshComponent_11) Already registered. Aborting.
+[2017.06.30-09.58.43:958][852]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_6.DebugSkelMeshComponent_9) Already registered. Aborting.
+[2017.06.30-09.58.43:958][852]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.Actor_5.DebugSkelMeshComponent_8) Already registered. Aborting.
+[2017.06.30-09.58.44:081][856]Cmd: TRANSACTION UNDO
+[2017.06.30-09.58.44:081][856]LogEditorTransaction: Undo Rotate Bone
+[2017.06.30-09.58.44:384][856]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_15:PersistentLevel.Actor_7.DebugSkelMeshComponent_11) Already registered. Aborting.
+[2017.06.30-09.58.44:385][856]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_13:PersistentLevel.Actor_6.DebugSkelMeshComponent_9) Already registered. Aborting.
+[2017.06.30-09.58.44:385][856]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.Actor_5.DebugSkelMeshComponent_8) Already registered. Aborting.
+[2017.06.30-09.58.56:071][686]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Character1_Skeleton" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Skeleton.uasset" SILENT=true
+[2017.06.30-09.58.56:075][686]LogSavePackage: Save=1.12ms
+[2017.06.30-09.58.56:075][686]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Character1_Skeleton6FB280124C9BBFE75E472AA8025C6DEE.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Skeleton.uasset'
+[2017.06.30-09.58.56:076][686]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Skeleton.uasset
+[2017.06.30-09.58.56:218][694]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Character1_Skeleton" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Skeleton.uasset" SILENT=true
+[2017.06.30-09.58.56:222][694]LogSavePackage: Save=1.10ms
+[2017.06.30-09.58.56:222][694]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Character1_SkeletonFC1BCFCC4D75647ACFAE52AA99EA3183.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Skeleton.uasset'
+[2017.06.30-09.58.56:222][694]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Skeleton.uasset
+[2017.06.30-09.58.56:410][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Character1_Skeleton" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Skeleton.uasset" SILENT=true
+[2017.06.30-09.58.56:413][707]LogSavePackage: Save=1.05ms
+[2017.06.30-09.58.56:413][707]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Character1_Skeleton5D422D174C0521493F5974A9536E06C5.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Skeleton.uasset'
+[2017.06.30-09.58.56:414][707]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Skeleton.uasset
+[2017.06.30-09.58.56:557][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Character1_Skeleton" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Skeleton.uasset" SILENT=true
+[2017.06.30-09.58.56:560][715]LogSavePackage: Save=1.04ms
+[2017.06.30-09.58.56:560][715]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Character1_SkeletonC789AC9C4789EA4FAF1986AED309C5C1.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Skeleton.uasset'
+[2017.06.30-09.58.56:561][715]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Skeleton.uasset
+[2017.06.30-09.58.56:708][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Character1_Skeleton" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Skeleton.uasset" SILENT=true
+[2017.06.30-09.58.56:711][725]LogSavePackage: Save=1.25ms
+[2017.06.30-09.58.56:711][725]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Character1_SkeletonDDAA78B2418E25DB132304A4D96F6F3F.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Skeleton.uasset'
+[2017.06.30-09.58.56:712][725]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Skeleton.uasset
+[2017.06.30-09.58.56:838][732]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Character1_Skeleton" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Skeleton.uasset" SILENT=true
+[2017.06.30-09.58.56:841][732]LogSavePackage: Save=1.04ms
+[2017.06.30-09.58.56:842][732]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Character1_Skeleton7F63E67C44F7A192512D7BB8D74E8870.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Skeleton.uasset'
+[2017.06.30-09.58.56:842][732]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Skeleton.uasset
+[2017.06.30-09.58.57:289][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Character1_Skeleton" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Skeleton.uasset" SILENT=true
+[2017.06.30-09.58.57:292][758]LogSavePackage: Save=1.03ms
+[2017.06.30-09.58.57:292][758]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Character1_SkeletonCEE38D09469442CCA05291A5C1944364.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Skeleton.uasset'
+[2017.06.30-09.58.57:293][758]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Skeleton.uasset
+[2017.06.30-09.59.39:874][872]LogSavePackage: Save=2.08ms
+[2017.06.30-09.59.39:874][872]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Character1_Anim_pLAYERaRMATURE1_Idle1AACE97A34CA39000E02737AE3AABAE4F.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Anim_pLAYERaRMATURE1_Idle1.uasset'
+[2017.06.30-09.59.39:874][872]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Anim_pLAYERaRMATURE1_Idle1.uasset
+[2017.06.30-09.59.40:381][902]LogSavePackage: Save=2.03ms
+[2017.06.30-09.59.40:381][902]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Character1_Anim_pLAYERaRMATURE1_Idle19566752445FF02B72C72BC987DED9843.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Anim_pLAYERaRMATURE1_Idle1.uasset'
+[2017.06.30-09.59.40:381][902]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Anim_pLAYERaRMATURE1_Idle1.uasset
+[2017.06.30-09.59.40:545][911]LogSavePackage: Save=2.09ms
+[2017.06.30-09.59.40:545][911]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Character1_Anim_pLAYERaRMATURE1_Idle111086B654462DC20057C4BB6EACAF02F.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Anim_pLAYERaRMATURE1_Idle1.uasset'
+[2017.06.30-09.59.40:546][911]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Anim_pLAYERaRMATURE1_Idle1.uasset
+[2017.06.30-09.59.40:714][922]LogSavePackage: Save=2.06ms
+[2017.06.30-09.59.40:714][922]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Character1_Anim_pLAYERaRMATURE1_Idle19DAFCD3045BB6885159E478055F6F990.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Anim_pLAYERaRMATURE1_Idle1.uasset'
+[2017.06.30-09.59.40:715][922]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Anim_pLAYERaRMATURE1_Idle1.uasset
+[2017.06.30-09.59.40:844][929]LogSavePackage: Save=2.65ms
+[2017.06.30-09.59.40:844][929]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Character1_Anim_pLAYERaRMATURE1_Idle17917CA66490E3B1336054D9A96C6D842.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Anim_pLAYERaRMATURE1_Idle1.uasset'
+[2017.06.30-09.59.40:845][929]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Anim_pLAYERaRMATURE1_Idle1.uasset
+[2017.06.30-09.59.41:026][940]LogSavePackage: Save=1.99ms
+[2017.06.30-09.59.41:026][940]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Character1_Anim_pLAYERaRMATURE1_Idle17E03892C4E827E5574D67BA63F466067.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Anim_pLAYERaRMATURE1_Idle1.uasset'
+[2017.06.30-09.59.41:027][940]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Anim_pLAYERaRMATURE1_Idle1.uasset
+[2017.06.30-09.59.56:415][ 14]LogSavePackage: Save=2.05ms
+[2017.06.30-09.59.56:416][ 14]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Character1_Anim_pLAYERaRMATURE1_Idle11D5FE4784CE09DAF91943B846CE87D4B.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Anim_pLAYERaRMATURE1_Idle1.uasset'
+[2017.06.30-09.59.56:416][ 14]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Anim_pLAYERaRMATURE1_Idle1.uasset
+[2017.06.30-09.59.57:050][ 55]LogSavePackage: Save=2.05ms
+[2017.06.30-09.59.57:050][ 55]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Character1_Anim_pLAYERaRMATURE1_Idle10E3CDE8F44CEA0DFA047F69C1B7A18C5.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Anim_pLAYERaRMATURE1_Idle1.uasset'
+[2017.06.30-09.59.57:051][ 55]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Anim_pLAYERaRMATURE1_Idle1.uasset
+[2017.06.30-10.00.32:895][324]LogSavePackage: Save=2.14ms
+[2017.06.30-10.00.32:895][324]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Character1_Anim_pLAYERaRMATURE1_Idle19BB4B21449CE8BD7FEEC0BA95F2B007E.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Anim_pLAYERaRMATURE1_Idle1.uasset'
+[2017.06.30-10.00.32:896][324]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Anim_pLAYERaRMATURE1_Idle1.uasset
+[2017.06.30-10.00.37:603][621]LogSavePackage: Save=1.97ms
+[2017.06.30-10.00.37:603][621]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Character1_Anim_pLAYERaRMATURE1_Idle1D738E22A4267B31AF1D237BE18547357.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Anim_pLAYERaRMATURE1_Idle1.uasset'
+[2017.06.30-10.00.37:603][621]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Anim_pLAYERaRMATURE1_Idle1.uasset
+[2017.06.30-10.00.37:870][636]LogSavePackage: Save=2.03ms
+[2017.06.30-10.00.37:870][636]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Character1_Anim_pLAYERaRMATURE1_Idle1B4B60DD34C6C33DE3CC01DB4DF8245C3.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Anim_pLAYERaRMATURE1_Idle1.uasset'
+[2017.06.30-10.00.37:871][636]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Anim_pLAYERaRMATURE1_Idle1.uasset
+[2017.06.30-10.02.04:002][829]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_17:PersistentLevel.Actor_8.DebugSkelMeshComponent_13) Already registered. Aborting.
+[2017.06.30-10.02.04:028][829]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_17:PersistentLevel.Actor_8.DebugSkelMeshComponent_13) - call TermArticulated first.
+[2017.06.30-10.02.14:210][572]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Character1_Skeleton" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Skeleton.uasset" SILENT=true
+[2017.06.30-10.02.14:214][572]LogSavePackage: Save=1.07ms
+[2017.06.30-10.02.14:214][572]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Character1_SkeletonB96E52064CE35892E92BC8821C69F334.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Skeleton.uasset'
+[2017.06.30-10.02.14:215][572]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Skeleton.uasset
+[2017.06.30-10.02.14:705][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Character1_Skeleton" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Skeleton.uasset" SILENT=true
+[2017.06.30-10.02.14:708][599]LogSavePackage: Save=1.04ms
+[2017.06.30-10.02.14:708][599]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Character1_Skeleton542F312A4D104B5167A4A28BA9E3C332.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Skeleton.uasset'
+[2017.06.30-10.02.14:709][599]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Skeleton.uasset
+[2017.06.30-10.02.23:501][252]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_18:PersistentLevel.Actor_9.DebugSkelMeshComponent_14) Already registered. Aborting.
+[2017.06.30-10.02.23:537][252]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_18:PersistentLevel.Actor_9.DebugSkelMeshComponent_14) - call TermArticulated first.
+[2017.06.30-10.02.26:035][391]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.Actor_10.DebugSkelMeshComponent_15) Already registered. Aborting.
+[2017.06.30-10.02.26:061][391]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_19:PersistentLevel.Actor_10.DebugSkelMeshComponent_15) - call TermArticulated first.
+[2017.06.30-10.02.29:854][635]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.Actor_11.DebugSkelMeshComponent_16) Already registered. Aborting.
+[2017.06.30-10.02.29:879][635]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_20:PersistentLevel.Actor_11.DebugSkelMeshComponent_16) - call TermArticulated first.
+[2017.06.30-10.02.30:126][635]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.06.30-10.04.09:778][724]LogFbx:Warning: FBX version number for this version of the FBX SDK is 7.5.0
+
+
+[2017.06.30-10.04.16:680][ 87]LogSavePackage: Save=8.43ms
+[2017.06.30-10.04.16:680][ 87]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Character1_Anim_pLAYERaRMATURE1_Idle2WithGun125A4B874E30FDC84C1BEAAB10073F32.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Anim_pLAYERaRMATURE1_Idle2WithGun.uasset'
+[2017.06.30-10.04.16:682][ 87]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Anim_pLAYERaRMATURE1_Idle2WithGun.uasset
+[2017.06.30-10.04.17:105][110]LogSavePackage: Save=2.11ms
+[2017.06.30-10.04.17:105][110]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Character1_Anim_pLAYERaRMATURE1_Idle2WithGunF75E3B384CF857E51964D298FF91345C.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Anim_pLAYERaRMATURE1_Idle2WithGun.uasset'
+[2017.06.30-10.04.17:105][110]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Anim_pLAYERaRMATURE1_Idle2WithGun.uasset
+[2017.06.30-10.04.17:296][122]LogSavePackage: Save=1.97ms
+[2017.06.30-10.04.17:296][122]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Character1_Anim_pLAYERaRMATURE1_Idle2WithGun2DF87C8A4B2E42AAE1D8ABBED8DF1DF0.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Anim_pLAYERaRMATURE1_Idle2WithGun.uasset'
+[2017.06.30-10.04.17:297][122]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Anim_pLAYERaRMATURE1_Idle2WithGun.uasset
+[2017.06.30-10.04.23:649][493]AssetReimport: New page: Outstanding source content changes 12:04:23 PM
+[2017.06.30-10.04.23:676][493]LogEditorFactories: Performing atomic reimport of [E:/Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Anim_pLAYERaRMATURE1_Idle1.fbx]
+[2017.06.30-10.04.23:703][493]LogFbx: Loading FBX Scene from E:/Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Anim_pLAYERaRMATURE1_Idle1.fbx
+[2017.06.30-10.04.23:717][493]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.30-10.04.23:718][493]LogFbx: =================================================
+[2017.06.30-10.04.23:718][493]LogFbx: Dumping Node START [Character1] 
+[2017.06.30-10.04.23:718][493]LogFbx: 	Total Deformer Count -911450048.
+[2017.06.30-10.04.23:718][493]LogFbx: 		[Node 1]  (Type Skin).
+[2017.06.30-10.04.23:718][493]LogFbx: =================================================
+[2017.06.30-10.04.23:718][493]LogFbx: 	Attribute (Character1) Type (4).
+[2017.06.30-10.04.23:718][493]LogFbx: 		[Node Attribute Child 1] Character1 (Type Mesh).
+[2017.06.30-10.04.23:718][493]LogFbx: Dumping Node END [Character1]
+[2017.06.30-10.04.23:718][493]LogFbx: =================================================
+[2017.06.30-10.04.23:718][493]LogFbx: Dumping Node START [Character1] 
+[2017.06.30-10.04.23:718][493]LogFbx: 	Total Deformer Count -911449920.
+[2017.06.30-10.04.23:718][493]LogFbx: 		[Node 1]  (Type Skin).
+[2017.06.30-10.04.23:718][493]LogFbx: =================================================
+[2017.06.30-10.04.23:718][493]LogFbx: 	Attribute (Character1) Type (4).
+[2017.06.30-10.04.23:718][493]LogFbx: 		[Node Attribute Child 1] Character1 (Type Mesh).
+[2017.06.30-10.04.23:718][493]LogFbx: Dumping Node END [Character1]
+[2017.06.30-10.04.23:719][493]LogFbx: Parsing AnimStack Unreal Take
+[2017.06.30-10.04.23:756][493]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/Character1_Anim_pLAYERaRMATURE1_Idle1.Character1_Anim_pLAYERaRMATURE1_Idle1
+[2017.06.30-10.04.23:759][493]LogEditorFactories: -- imported successfully
+[2017.06.30-10.04.26:779][669]AssetReimport: Info Reimported asset Character1_Anim_pLAYERaRMATURE1_Idle1 from E:/Users/Snoop/Documents/Unreal Projects/Hunter/Content/Characters/Character1_Anim_pLAYERaRMATURE1_Idle1.fbx.
+[2017.06.30-10.04.37:892][531]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_23:PersistentLevel.Actor_12.DebugSkelMeshComponent_19) Already registered. Aborting.
+[2017.06.30-10.04.37:929][531]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_23:PersistentLevel.Actor_12.DebugSkelMeshComponent_19) - call TermArticulated first.
+[2017.06.30-10.04.42:176][786]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.Actor_13.DebugSkelMeshComponent_20) Already registered. Aborting.
+[2017.06.30-10.04.42:200][786]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_24:PersistentLevel.Actor_13.DebugSkelMeshComponent_20) - call TermArticulated first.
+[2017.06.30-10.04.42:447][786]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2017.06.30-10.04.42:984][789]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.06.30-10.04.43:484][789]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.06.30-10.04.43:993][789]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.06.30-10.04.44:493][789]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.06.30-10.04.44:993][789]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.06.30-10.04.45:311][789]LogD3D11RHI:Error: Result failed 
+ at D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Viewport.cpp:290 
+ with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DEVICE_HUNG
+[2017.06.30-10.04.45:476][789]LogWindows: Windows GetLastError: The operation completed successfully. (0)

@@ -1,0 +1,826 @@
+﻿Log file open, 06/23/17 21:16:53
+LogInit:Display: Running engine for game: Hunter
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1869494880) SRandInit(-1869494880).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.087499
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: E:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.23-20.16.54:225][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.23-20.16.54:225][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.23-20.16.54:241][  0]LogInit: Computer: SNOOP-PC
+[2017.06.23-20.16.54:242][  0]LogInit: User: Snoop
+[2017.06.23-20.16.54:242][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.06.23-20.16.54:242][  0]LogInit: High frequency timer resolution =3.410273 MHz
+[2017.06.23-20.16.54:242][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.06.23-20.16.54:242][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.23-20.16.54:242][  0]LogMemory: Process Physical Memory: 276.26 MB used, 276.26 MB peak
+[2017.06.23-20.16.54:242][  0]LogMemory: Process Virtual Memory: 264.69 MB used, 264.69 MB peak
+[2017.06.23-20.16.54:242][  0]LogMemory: Physical Memory: 4687.89 MB used,  11644.99 MB free, 16332.88 MB total
+[2017.06.23-20.16.54:242][  0]LogMemory: Virtual Memory: 624.41 MB used,  11644.99 MB free, 8388608.00 MB total
+[2017.06.23-20.16.54:332][  0]LogInit: Using OS detected language (en-US).
+[2017.06.23-20.16.54:332][  0]LogInit: Using OS detected locale (en-US).
+[2017.06.23-20.16.54:335][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.06.23-20.16.55:192][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.23-20.16.55:213][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 560' (Feature Level 11_0)
+[2017.06.23-20.16.55:213][  0]LogD3D11RHI:       979/0/3071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.06.23-20.16.55:213][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.23-20.16.55:217][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.23-20.16.55:217][  0]LogD3D11RHI:     GPU DeviceId: 0x1201 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.23-20.16.55:217][  0]LogWindows: EnumDisplayDevices:
+[2017.06.23-20.16.55:217][  0]LogWindows:    0. 'NVIDIA GeForce GTX 560' (P:1 D:1)
+[2017.06.23-20.16.55:217][  0]LogWindows:    1. 'NVIDIA GeForce GTX 560' (P:0 D:0)
+[2017.06.23-20.16.55:217][  0]LogWindows:    2. 'RDPDD Chained DD' (P:0 D:0)
+[2017.06.23-20.16.55:217][  0]LogWindows:    3. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.06.23-20.16.55:217][  0]LogWindows:    4. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.06.23-20.16.55:217][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:2 
+[2017.06.23-20.16.55:217][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 560
+[2017.06.23-20.16.55:217][  0]LogD3D11RHI:   Driver Version: 378.92 (internal:21.21.13.7892, unified:378.92)
+[2017.06.23-20.16.55:217][  0]LogD3D11RHI:      Driver Date: 3-16-2017
+[2017.06.23-20.16.55:217][  0]LogRHI: Texture pool is 685 MB (70% of 979 MB)
+[2017.06.23-20.16.55:227][  0]LogD3D11RHI:Display: Timestamp queries are currently disabled on this hardware due to instability. Realtime GPU stats will not be available. You can override this behaviour by setting r.NVIDIATimestampWorkaround to 0
+[2017.06.23-20.16.55:227][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.23-20.16.55:242][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.06.23-20.16.55:288][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Intermediate/Shaders/WorkingDirectory/7272/).
+[2017.06.23-20.16.55:288][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Snoop/AppData/Local/Temp/UnrealShaderWorkingDir/842D99D9479B09EAE64C49B93226908D/'.
+[2017.06.23-20.16.55:288][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.23-20.16.56:316][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.23-20.16.56:362][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.23-20.16.56:409][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.23-20.16.56:456][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.23-20.16.56:503][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.23-20.16.56:550][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.23-20.16.56:597][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.23-20.16.56:643][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.23-20.16.56:683][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.23-20.16.56:728][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.23-20.16.56:774][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.23-20.16.56:819][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.23-20.16.56:867][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.23-20.16.56:916][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.23-20.16.56:961][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.23-20.16.57:051][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.23-20.16.57:051][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.23-20.16.57:086][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.23-20.16.57:170][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.23-20.16.57:195][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.23-20.16.57:240][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.23-20.16.57:286][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.23-20.16.57:331][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.23-20.16.57:376][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.23-20.16.57:376][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.23-20.16.57:802][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.23-20.16.57:885][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/Snoop/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.23-20.16.57:885][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Snoop/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.06.23-20.16.57:885][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.23-20.16.57:885][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.23-20.16.57:885][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.23-20.16.57:885][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.23-20.16.57:903][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.23-20.16.57:914][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Snoop/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.23-20.16.57:924][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.06.23-20.16.57:924][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.23-20.16.57:925][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.23-20.16.57:925][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.23-20.16.58:320][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.23-20.16.58:324][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.23-20.16.58:544][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.23-20.16.58:585][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.23-20.16.58:631][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.23-20.16.58:631][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.23-20.16.58:631][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.23-20.16.59:092][  0]LogNetVersion: Hunter , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3400572679)
+[2017.06.23-20.16.59:146][  0]LogAssetRegistry: FAssetRegistry took 0.0237 seconds to start up
+[2017.06.23-20.16.59:187][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.025386 seconds
+[2017.06.23-20.16.59:192][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.06.23-20.16.59:192][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.06.23-20.16.59:192][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.23-20.16.59:237][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.23-20.17.01:475][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.23-20.17.01:511][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.23-20.17.02:203][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.23-20.17.02:580][  0]SourceControl: Info Source control is disabled
+[2017.06.23-20.17.02:600][  0]SourceControl: Info Source control is disabled
+[2017.06.23-20.17.02:645][  0]SourceControl: Info Source control is disabled
+[2017.06.23-20.17.02:692][  0]SourceControl: Info Source control is disabled
+[2017.06.23-20.17.03:332][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.06.23-20.17.03:894][  0]LogEngine: Initializing Engine...
+[2017.06.23-20.17.03:894][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.23-20.17.04:090][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.23-20.17.04:090][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.23-20.17.04:204][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.23-20.17.04:222][  0]LogInit: XAudio2 using 'LG TV-14 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.23-20.17.04:230][  0]LogInit: FAudioDevice initialized.
+[2017.06.23-20.17.04:274][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Snoop/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.23-20.17.04:284][  0]LogInit: Texture streaming: Enabled
+[2017.06.23-20.17.04:362][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.23-20.17.04:551][  0]LogInit: Transaction tracking system initialized
+[2017.06.23-20.17.04:826][  0]BlueprintLog: New page: Editor Load
+[2017.06.23-20.17.05:643][  0]LocalizationService: Info Localization service is disabled
+[2017.06.23-20.17.06:546][  0]LogConsoleResponse:Display: 
+[2017.06.23-20.17.06:677][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.23-20.17.06:677][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.23-20.17.07:564][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Snoop/Documents/Unreal Projects/Hunter/Content/' took 0.01s
+[2017.06.23-20.17.07:606][  0]SourceControl: Info Source control is disabled
+[2017.06.23-20.17.07:607][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.23-20.17.07:607][  0]LightingResults: New page: Lighting Build
+[2017.06.23-20.17.07:643][  0]MapCheck: New page: Map Check
+[2017.06.23-20.17.07:643][  0]LightingResults: New page: Lighting Build
+[2017.06.23-20.17.08:085][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.06.23-20.17.08:126][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.23-20.17.08:142][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.23-20.17.08:195][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.008ms to complete.
+[2017.06.23-20.17.08:195][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.588
+[2017.06.23-20.17.08:335][  0]LogCollectionManager: Loaded 0 collections in 0.001732 seconds
+[2017.06.23-20.17.08:404][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Collections/' took 0.01s
+[2017.06.23-20.17.08:404][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Snoop/Documents/Unreal Projects/Hunter/Content/Developers/Snoop/Collections/' took 0.01s
+[2017.06.23-20.17.08:404][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Snoop/Documents/Unreal Projects/Hunter/Content/Collections/' took 0.01s
+[2017.06.23-20.17.08:404][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.06.23-20.17.08:414][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2329 classes and 491 folders.
+[2017.06.23-20.17.08:467][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.06.23-20.17.08:514][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.06.23-20.17.08:553][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.06.23-20.17.08:639][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.23-20.17.08:643][  0]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.23-20.17.08:647][  0]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.23-20.17.08:649][  0]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.23-20.17.08:735][  0]LogRenderer: Reallocating scene render targets to support 1080x292 NumSamples 1 (Frame:1).
+[2017.06.23-20.17.08:860][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.23-20.17.08:920][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.06.23-20.17.08:920][  0]LogLoad: (Engine Initialization) Total time: 16.24 seconds
+[2017.06.23-20.17.08:920][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.10 seconds
+[2017.06.23-20.17.08:921][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.06.23-20.17.09:260][  0]LogOcInput: OculusInput pre-init called
+[2017.06.23-20.17.09:260][  0]LogHMD: Starting GearVRController plugin
+[2017.06.23-20.17.09:286][  0]LogContentStreaming: Texture pool size now 400 MB
+[2017.06.23-20.17.09:354][  0]LogSlate: Took 0.000270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.23-20.17.09:616][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.06.23-20.17.09:939][  2]LogAssetRegistry: Asset discovery search completed in 10.8123 seconds
+[2017.06.23-20.17.09:943][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000001 seconds (updated 0 objects)
+[2017.06.23-20.17.17:937][ 26]LogSlate: Took 0.000983 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.23-20.17.24:371][112]AssetReimport: New page: Outstanding source content changes 10:17:24 PM
+[2017.06.23-20.17.24:372][112]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:/Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/FloatingFull2.fbx)
+[2017.06.23-20.17.24:377][112]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.06.23-20.17.24:377][112]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.06.23-20.17.24:377][112]LogFbx: ItemName: Model, ItemCount : 1
+[2017.06.23-20.17.24:377][112]LogFbx: ItemName: Material, ItemCount : 3
+[2017.06.23-20.17.24:382][112]LogFbx: Loading FBX Scene from E:/Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/FloatingFull2.fbx
+[2017.06.23-20.17.24:390][112]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.23-20.17.27:328][112]LogFbx: Loading FBX Scene from E:/Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/FloatingFull2.fbx
+[2017.06.23-20.17.27:338][112]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.23-20.17.27:675][112]LogStaticMesh: Building static mesh FloatingFull2...
+[2017.06.23-20.17.27:759][112]LogStaticMesh: Built static mesh [0.08s] /Game/FBX/Nature/FloatingFull2.FloatingFull2
+[2017.06.23-20.17.27:847][113]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:/Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull2.fbx)
+[2017.06.23-20.17.27:849][113]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.06.23-20.17.27:849][113]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.06.23-20.17.27:849][113]LogFbx: ItemName: Model, ItemCount : 1
+[2017.06.23-20.17.27:849][113]LogFbx: ItemName: Material, ItemCount : 2
+[2017.06.23-20.17.27:854][113]LogFbx: Loading FBX Scene from E:/Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull2.fbx
+[2017.06.23-20.17.27:860][113]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.23-20.17.30:160][113]LogFbx: Loading FBX Scene from E:/Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull2.fbx
+[2017.06.23-20.17.30:173][113]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.23-20.17.30:237][113]LogStaticMesh: Building static mesh TreeFull2...
+[2017.06.23-20.17.30:246][113]LogStaticMesh: Built static mesh [0.01s] /Game/FBX/Nature/TreeFull2.TreeFull2
+[2017.06.23-20.17.30:266][114]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:/Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull3.fbx)
+[2017.06.23-20.17.30:269][114]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.06.23-20.17.30:269][114]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.06.23-20.17.30:269][114]LogFbx: ItemName: Model, ItemCount : 1
+[2017.06.23-20.17.30:269][114]LogFbx: ItemName: Material, ItemCount : 3
+[2017.06.23-20.17.30:274][114]LogFbx: Loading FBX Scene from E:/Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull3.fbx
+[2017.06.23-20.17.30:281][114]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.23-20.17.32:667][114]LogFbx: Loading FBX Scene from E:/Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull3.fbx
+[2017.06.23-20.17.32:674][114]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.23-20.17.32:770][114]LogStaticMesh: Building static mesh TreeFull3...
+[2017.06.23-20.17.32:785][114]LogStaticMesh: Built static mesh [0.02s] /Game/FBX/Nature/TreeFull3.TreeFull3
+[2017.06.23-20.17.32:819][115]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:/Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull4.fbx)
+[2017.06.23-20.17.32:821][115]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.06.23-20.17.32:821][115]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.06.23-20.17.32:821][115]LogFbx: ItemName: Model, ItemCount : 1
+[2017.06.23-20.17.32:821][115]LogFbx: ItemName: Material, ItemCount : 2
+[2017.06.23-20.17.32:826][115]LogFbx: Loading FBX Scene from E:/Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull4.fbx
+[2017.06.23-20.17.32:832][115]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.23-20.17.34:578][115]LogFbx: Loading FBX Scene from E:/Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull4.fbx
+[2017.06.23-20.17.34:586][115]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.23-20.17.34:652][115]LogStaticMesh: Building static mesh TreeFull4...
+[2017.06.23-20.17.34:661][115]LogStaticMesh: Built static mesh [0.01s] /Game/FBX/Nature/TreeFull4.TreeFull4
+[2017.06.23-20.17.34:696][116]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:/Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull5.fbx)
+[2017.06.23-20.17.34:699][116]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.06.23-20.17.34:699][116]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.06.23-20.17.34:699][116]LogFbx: ItemName: Model, ItemCount : 1
+[2017.06.23-20.17.34:699][116]LogFbx: ItemName: Material, ItemCount : 2
+[2017.06.23-20.17.34:704][116]LogFbx: Loading FBX Scene from E:/Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull5.fbx
+[2017.06.23-20.17.34:711][116]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.23-20.17.37:537][116]LogFbx: Loading FBX Scene from E:/Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull5.fbx
+[2017.06.23-20.17.37:545][116]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.23-20.17.37:636][116]LogStaticMesh: Building static mesh TreeFull5...
+[2017.06.23-20.17.37:651][116]LogStaticMesh: Built static mesh [0.02s] /Game/FBX/Nature/TreeFull5.TreeFull5
+[2017.06.23-20.17.37:698][117]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:/Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull6.fbx)
+[2017.06.23-20.17.37:700][117]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.06.23-20.17.37:700][117]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.06.23-20.17.37:700][117]LogFbx: ItemName: Model, ItemCount : 1
+[2017.06.23-20.17.37:700][117]LogFbx: ItemName: Material, ItemCount : 2
+[2017.06.23-20.17.37:705][117]LogFbx: Loading FBX Scene from E:/Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull6.fbx
+[2017.06.23-20.17.37:710][117]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.23-20.17.39:842][117]LogFbx: Loading FBX Scene from E:/Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull6.fbx
+[2017.06.23-20.17.39:848][117]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.23-20.17.39:910][117]LogStaticMesh: Building static mesh TreeFull6...
+[2017.06.23-20.17.39:919][117]LogStaticMesh: Built static mesh [0.01s] /Game/FBX/Nature/TreeFull6.TreeFull6
+[2017.06.23-20.17.39:955][118]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:/Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/FloatingFull1.fbx)
+[2017.06.23-20.17.39:958][118]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.06.23-20.17.39:958][118]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.06.23-20.17.39:958][118]LogFbx: ItemName: Model, ItemCount : 1
+[2017.06.23-20.17.39:958][118]LogFbx: ItemName: Material, ItemCount : 3
+[2017.06.23-20.17.39:962][118]LogFbx: Loading FBX Scene from E:/Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/FloatingFull1.fbx
+[2017.06.23-20.17.39:970][118]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.23-20.17.42:058][118]LogFbx: Loading FBX Scene from E:/Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/FloatingFull1.fbx
+[2017.06.23-20.17.42:065][118]LogFbx: FBX Scene Loaded Succesfully
+[2017.06.23-20.17.42:315][118]LogStaticMesh: Building static mesh FloatingFull1...
+[2017.06.23-20.17.42:395][118]LogStaticMesh: Built static mesh [0.08s] /Game/FBX/Nature/FloatingFull1.FloatingFull1
+[2017.06.23-20.17.42:488][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/Nature/FloatingFull2" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/FloatingFull2.uasset" SILENT=true
+[2017.06.23-20.17.42:496][119]LogSavePackage: Save=7.51ms
+[2017.06.23-20.17.42:496][119]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/FloatingFull22F44BDCE464C312D075C1483C7A21250.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/FloatingFull2.uasset'
+[2017.06.23-20.17.42:498][119]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/FloatingFull2.uasset
+[2017.06.23-20.17.42:510][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/Nature/TreeFull2" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull2.uasset" SILENT=true
+[2017.06.23-20.17.42:520][119]LogSavePackage: Save=9.15ms
+[2017.06.23-20.17.42:520][119]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/TreeFull2658B0D9B46B942723383CE9ACDA02426.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull2.uasset'
+[2017.06.23-20.17.42:521][119]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull2.uasset
+[2017.06.23-20.17.42:533][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/Nature/TreeFull3" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull3.uasset" SILENT=true
+[2017.06.23-20.17.42:543][119]LogSavePackage: Save=9.14ms
+[2017.06.23-20.17.42:543][119]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/TreeFull3A38D6B154457C6057CFF19B9A178CB13.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull3.uasset'
+[2017.06.23-20.17.42:544][119]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull3.uasset
+[2017.06.23-20.17.42:556][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/Nature/TreeFull4" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull4.uasset" SILENT=true
+[2017.06.23-20.17.42:566][119]LogSavePackage: Save=8.92ms
+[2017.06.23-20.17.42:566][119]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/TreeFull4C65F91B44F20BD9C20E417AAD844182D.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull4.uasset'
+[2017.06.23-20.17.42:567][119]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull4.uasset
+[2017.06.23-20.17.42:579][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/Nature/TreeFull5" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull5.uasset" SILENT=true
+[2017.06.23-20.17.42:589][119]LogSavePackage: Save=8.83ms
+[2017.06.23-20.17.42:589][119]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/TreeFull54F3465DD4EDF112C909EE9BF1C36C500.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull5.uasset'
+[2017.06.23-20.17.42:591][119]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull5.uasset
+[2017.06.23-20.17.42:602][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/Nature/TreeFull6" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull6.uasset" SILENT=true
+[2017.06.23-20.17.42:612][119]LogSavePackage: Save=8.89ms
+[2017.06.23-20.17.42:612][119]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/TreeFull65AA663174C3D45CE7A4C8EAF05FB6E1F.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull6.uasset'
+[2017.06.23-20.17.42:613][119]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull6.uasset
+[2017.06.23-20.17.42:625][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/Nature/FloatingFull1" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/FloatingFull1.uasset" SILENT=true
+[2017.06.23-20.17.42:634][119]LogSavePackage: Save=7.60ms
+[2017.06.23-20.17.42:634][119]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/FloatingFull1C06DF39547A829FDFB513592F3D26344.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/FloatingFull1.uasset'
+[2017.06.23-20.17.42:635][119]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/FloatingFull1.uasset
+[2017.06.23-20.17.45:639][276]AssetReimport: Info Importing new asset /Game/FBX/Nature/FloatingFull2.
+[2017.06.23-20.17.45:639][276]AssetReimport: Info Importing new asset /Game/FBX/Nature/TreeFull2.
+[2017.06.23-20.17.45:639][276]AssetReimport: Info Importing new asset /Game/FBX/Nature/TreeFull3.
+[2017.06.23-20.17.45:639][276]AssetReimport: Info Importing new asset /Game/FBX/Nature/TreeFull4.
+[2017.06.23-20.17.45:640][276]AssetReimport: Info Importing new asset /Game/FBX/Nature/TreeFull5.
+[2017.06.23-20.17.45:640][276]AssetReimport: Info Importing new asset /Game/FBX/Nature/TreeFull6.
+[2017.06.23-20.17.45:640][276]AssetReimport: Info Importing new asset /Game/FBX/Nature/FloatingFull1.
+[2017.06.23-20.17.57:397][236]LogActorFactory: Actor Factory created FloatingFull1
+[2017.06.23-20.17.59:034][429]LogActorFactory: Actor Factory created FloatingFull1
+[2017.06.23-20.18.42:390][121]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.06.23-20.19.05:203][678]LogMaterial: Missing cached shader map for material HangingGreens1, compiling. 
+[2017.06.23-20.19.05:318][678]LogMaterial: Missing cached shader map for material HangingGreens1, compiling. 
+[2017.06.23-20.19.05:332][678]LogMaterial: Missing cached shader map for material HangingGreens1, compiling. 
+[2017.06.23-20.19.05:396][678]LogSlate: Took 0.023068 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.23-20.19.07:454][806]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.06.23-20.19.07:454][806]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.06.23-20.19.07:454][806]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.06.23-20.19.17:954][813]LogMaterial: Missing cached shader map for material HangingGreens1, compiling. 
+[2017.06.23-20.19.17:966][813]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.06.23-20.19.18:767][852]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.06.23-20.19.18:767][852]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.06.23-20.19.18:767][852]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.06.23-20.19.28:023][427]LogMaterial: Missing cached shader map for material HangingGreens1, compiling. 
+[2017.06.23-20.19.28:051][427]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.06.23-20.19.28:783][463]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.06.23-20.19.28:783][463]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.06.23-20.19.28:783][463]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.06.23-20.19.43:038][437]LogMaterial: Missing cached shader map for material GtassTall, compiling. 
+[2017.06.23-20.19.43:145][437]LogMaterial: Missing cached shader map for material GtassTall, compiling. 
+[2017.06.23-20.19.43:182][437]LogMaterial: Missing cached shader map for material GtassTall, compiling. 
+[2017.06.23-20.19.43:229][437]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.06.23-20.19.43:234][437]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.06.23-20.19.44:881][512]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.06.23-20.19.44:881][512]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.19.44:881][512]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.23-20.19.44:881][512]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.20.00:739][905]LogMaterial: Missing cached shader map for material HangingGreens1, compiling. 
+[2017.06.23-20.20.00:757][905]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.06.23-20.20.01:583][942]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.06.23-20.20.01:583][942]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.20.01:583][942]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.23-20.20.01:583][942]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.20.04:315][181]LogMaterial: Missing cached shader map for material HangingGreens1, compiling. 
+[2017.06.23-20.20.04:346][181]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.06.23-20.20.05:150][215]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.06.23-20.20.05:150][215]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.20.05:150][215]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.23-20.20.05:150][215]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.20.11:391][794]LogMaterial: Missing cached shader map for material HangingGreens1, compiling. 
+[2017.06.23-20.20.11:417][794]LogMaterial: Missing cached shader map for material HangingGreens1, compiling. 
+[2017.06.23-20.20.12:941][879]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2017.06.23-20.20.12:941][879]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.20.12:941][879]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.23-20.20.12:941][879]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.20.20:228][553]LogMaterial: Missing cached shader map for material HangingGreens1, compiling. 
+[2017.06.23-20.20.20:251][553]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.06.23-20.20.21:760][633]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2017.06.23-20.20.21:760][633]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.20.21:760][633]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.23-20.20.21:761][633]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.20.26:334][ 35]LogMaterial: Missing cached shader map for material HangingGreens1, compiling. 
+[2017.06.23-20.20.26:375][ 35]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.06.23-20.20.27:880][113]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2017.06.23-20.20.27:880][113]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.20.27:880][113]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.23-20.20.27:880][113]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.20.36:944][870]LogMaterial: Missing cached shader map for material HangingGreens1, compiling. 
+[2017.06.23-20.20.36:973][870]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.06.23-20.20.38:505][952]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.06.23-20.20.38:505][952]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.20.38:505][952]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.23-20.20.38:505][952]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.20.52:962][167]LogMaterial: Missing cached shader map for material HangingGreens1, compiling. 
+[2017.06.23-20.20.52:963][167]LogMaterial:Warning: Failed to compile Material /Engine/Transient.HangingGreens1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.23-20.20.52:963][167]LogMaterial:Warning: 	Volume materials must use an Additive blend mode.
+[2017.06.23-20.20.52:972][167]LogMaterial: Missing cached shader map for material HangingGreens1, compiling. 
+[2017.06.23-20.20.52:972][167]LogMaterial:Warning: Failed to compile Material /Engine/Transient.HangingGreens1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.23-20.20.52:973][167]LogMaterial:Warning: 	Volume materials must use an Additive blend mode.
+[2017.06.23-20.20.52:975][167]MaterialEditorStats:Error: Error [SM5] Volume materials must use an Additive blend mode.
+[2017.06.23-20.20.57:725][572]LogMaterial: Missing cached shader map for material HangingGreens1, compiling. 
+[2017.06.23-20.20.57:756][572]LogMaterial: Missing cached shader map for material HangingGreens1, compiling. 
+[2017.06.23-20.20.59:313][648]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.06.23-20.20.59:313][648]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.20.59:313][648]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.23-20.20.59:313][648]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.21.09:321][580]LogMaterial: Missing cached shader map for material HangingGreens1, compiling. 
+[2017.06.23-20.21.09:352][580]LogMaterial: Missing cached shader map for material HangingGreens1, compiling. 
+[2017.06.23-20.21.10:855][650]MaterialEditorStats: Info Base pass shader: 90 instructions
+[2017.06.23-20.21.10:855][650]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.21.10:855][650]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.23-20.21.10:855][650]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.21.14:373][981]LogMaterial: Missing cached shader map for material HangingGreens1, compiling. 
+[2017.06.23-20.21.14:445][981]LogMaterial: Missing cached shader map for material HangingGreens1, compiling. 
+[2017.06.23-20.21.16:059][ 63]MaterialEditorStats: Info Base pass shader: 89 instructions
+[2017.06.23-20.21.16:059][ 63]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.21.16:059][ 63]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.23-20.21.16:059][ 63]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.21.25:019][805]LogMaterial: Missing cached shader map for material HangingGreens1, compiling. 
+[2017.06.23-20.21.25:045][805]LogMaterial: Missing cached shader map for material HangingGreens1, compiling. 
+[2017.06.23-20.21.26:623][886]MaterialEditorStats: Info Base pass shader: 93 instructions
+[2017.06.23-20.21.26:623][886]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.21.26:623][886]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.23-20.21.26:623][886]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.21.32:582][394]LogMaterialEditor: Saving and Compiling material HangingGreens1
+[2017.06.23-20.21.33:188][394]LogMaterial: Missing cached shader map for material HangingGreens1, compiling. 
+[2017.06.23-20.21.33:246][394]LogMaterial: Missing cached shader map for material HangingGreens1, compiling. 
+[2017.06.23-20.21.33:289][394]LogMaterial: Missing cached shader map for material HangingGreens1, compiling. 
+[2017.06.23-20.21.33:342][394]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy HangingGreens1, compiling. 
+[2017.06.23-20.21.34:590][394]TextureStreamingBuild:Display: Compiling optional shaders took 1.255 seconds.
+[2017.06.23-20.21.36:605][394]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/HangingGreens1" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Materials/HangingGreens1.uasset" SILENT=true
+[2017.06.23-20.21.36:617][394]LogSavePackage: Save=10.69ms
+[2017.06.23-20.21.36:617][394]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/HangingGreens10E47778343E7B9A0A9E50584657F0F81.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Materials/HangingGreens1.uasset'
+[2017.06.23-20.21.36:618][394]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Materials/HangingGreens1.uasset
+[2017.06.23-20.21.36:620][394]MaterialEditorStats: Info Base pass shader: 93 instructions
+[2017.06.23-20.21.36:620][394]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2017.06.23-20.21.36:620][394]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.06.23-20.21.36:620][394]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.21.44:188][998]LogMaterial: Missing cached shader map for material GtassTall, compiling. 
+[2017.06.23-20.21.44:271][998]LogMaterial: Missing cached shader map for material GtassTall, compiling. 
+[2017.06.23-20.21.44:305][998]LogMaterial: Missing cached shader map for material GtassTall, compiling. 
+[2017.06.23-20.21.44:353][998]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.06.23-20.21.44:357][998]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.06.23-20.21.45:899][ 68]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.06.23-20.21.45:899][ 68]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.21.45:899][ 68]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.23-20.21.45:899][ 68]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.21.51:721][570]LogMaterial: Missing cached shader map for material GtassTall, compiling. 
+[2017.06.23-20.21.51:752][570]LogMaterial: Missing cached shader map for material GtassTall, compiling. 
+[2017.06.23-20.21.52:917][622]LogMaterial: Missing cached shader map for material GtassTall, compiling. 
+[2017.06.23-20.21.52:952][622]LogMaterial: Missing cached shader map for material GtassTall, compiling. 
+[2017.06.23-20.21.54:548][701]MaterialEditorStats: Info Base pass shader: 93 instructions
+[2017.06.23-20.21.54:548][701]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.21.54:548][701]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.23-20.21.54:548][701]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.21.57:027][900]LogMaterialEditor: Saving and Compiling material GtassTall
+[2017.06.23-20.21.57:617][900]LogMaterial: Missing cached shader map for material GtassTall, compiling. 
+[2017.06.23-20.21.57:675][900]LogMaterial: Missing cached shader map for material GtassTall, compiling. 
+[2017.06.23-20.21.57:743][900]LogMaterial: Missing cached shader map for material GtassTall, compiling. 
+[2017.06.23-20.21.57:804][900]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy GtassTall, compiling. 
+[2017.06.23-20.21.59:004][900]TextureStreamingBuild:Display: Compiling optional shaders took 1.208 seconds.
+[2017.06.23-20.22.01:008][900]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/GtassTall" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Materials/GtassTall.uasset" SILENT=true
+[2017.06.23-20.22.01:021][900]LogSavePackage: Save=10.43ms
+[2017.06.23-20.22.01:021][900]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/GtassTallFA12986E4C87B9A7B97DBBAB4C2B9B2D.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Materials/GtassTall.uasset'
+[2017.06.23-20.22.01:023][900]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Materials/GtassTall.uasset
+[2017.06.23-20.22.01:027][900]MaterialEditorStats: Info Base pass shader: 93 instructions
+[2017.06.23-20.22.01:027][900]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2017.06.23-20.22.01:027][900]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.06.23-20.22.01:027][900]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.22.17:599][300]LogMaterialEditor: Saving and Compiling material GtassTall
+[2017.06.23-20.22.17:605][300]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/GtassTall" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Materials/GtassTall.uasset" SILENT=true
+[2017.06.23-20.22.17:610][300]LogSavePackage: Save=2.70ms
+[2017.06.23-20.22.17:610][300]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/GtassTallF13390D845AEC48E67BB7990B7ABBA30.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Materials/GtassTall.uasset'
+[2017.06.23-20.22.17:610][300]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Materials/GtassTall.uasset
+[2017.06.23-20.22.19:385][432]LogMaterialEditor: Saving and Compiling material GtassTall
+[2017.06.23-20.22.19:391][432]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/GtassTall" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Materials/GtassTall.uasset" SILENT=true
+[2017.06.23-20.22.19:396][432]LogSavePackage: Save=2.72ms
+[2017.06.23-20.22.19:396][432]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/GtassTallEBCA33294B9C0B9E8807F6BCBD638875.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Materials/GtassTall.uasset'
+[2017.06.23-20.22.19:396][432]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Materials/GtassTall.uasset
+[2017.06.23-20.22.28:247][108]LogMaterial: Missing cached shader map for material TreeGreens1, compiling. 
+[2017.06.23-20.22.28:342][108]LogMaterial: Missing cached shader map for material TreeGreens1, compiling. 
+[2017.06.23-20.22.28:376][108]LogMaterial: Missing cached shader map for material TreeGreens1, compiling. 
+[2017.06.23-20.22.28:446][108]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2017.06.23-20.22.28:452][108]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2017.06.23-20.22.30:166][191]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.06.23-20.22.30:166][191]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.22.30:166][191]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.23-20.22.30:166][191]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.22.35:383][614]LogMaterial: Missing cached shader map for material TreeGreens1, compiling. 
+[2017.06.23-20.22.35:415][614]LogMaterial: Missing cached shader map for material TreeGreens1, compiling. 
+[2017.06.23-20.22.36:361][656]LogMaterial: Missing cached shader map for material TreeGreens1, compiling. 
+[2017.06.23-20.22.36:394][656]LogMaterial: Missing cached shader map for material TreeGreens1, compiling. 
+[2017.06.23-20.22.38:006][740]MaterialEditorStats: Info Base pass shader: 93 instructions
+[2017.06.23-20.22.38:006][740]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.22.38:006][740]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.23-20.22.38:006][740]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.22.41:930][ 72]LogMaterialEditor: Saving and Compiling material TreeGreens1
+[2017.06.23-20.22.42:520][ 72]LogMaterial: Missing cached shader map for material TreeGreens1, compiling. 
+[2017.06.23-20.22.42:577][ 72]LogMaterial: Missing cached shader map for material TreeGreens1, compiling. 
+[2017.06.23-20.22.42:627][ 72]LogMaterial: Missing cached shader map for material TreeGreens1, compiling. 
+[2017.06.23-20.22.42:683][ 72]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy TreeGreens1, compiling. 
+[2017.06.23-20.22.43:951][ 72]TextureStreamingBuild:Display: Compiling optional shaders took 1.275 seconds.
+[2017.06.23-20.22.45:944][ 72]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/TreeGreens1" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Materials/TreeGreens1.uasset" SILENT=true
+[2017.06.23-20.22.45:961][ 72]LogSavePackage: Save=14.00ms
+[2017.06.23-20.22.45:961][ 72]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/TreeGreens1872C3329478D6C1128EFE3A9CF8746A8.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Materials/TreeGreens1.uasset'
+[2017.06.23-20.22.45:962][ 72]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Materials/TreeGreens1.uasset
+[2017.06.23-20.22.45:964][ 72]MaterialEditorStats: Info Base pass shader: 93 instructions
+[2017.06.23-20.22.45:964][ 72]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2017.06.23-20.22.45:964][ 72]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.06.23-20.22.45:964][ 72]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.23.14:455][239]LogMaterial: Missing cached shader map for material Grass1, compiling. 
+[2017.06.23-20.23.14:537][239]LogMaterial: Missing cached shader map for material Grass1, compiling. 
+[2017.06.23-20.23.14:562][239]LogMaterial: Missing cached shader map for material Grass1, compiling. 
+[2017.06.23-20.23.14:610][239]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.06.23-20.23.14:623][239]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.06.23-20.23.14:628][239]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling. 
+[2017.06.23-20.23.16:408][328]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.06.23-20.23.16:408][328]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.23.16:408][328]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.23-20.23.16:408][328]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.23.24:877][985]LogMaterial: Missing cached shader map for material Grass1, compiling. 
+[2017.06.23-20.23.24:908][985]LogMaterial: Missing cached shader map for material Grass1, compiling. 
+[2017.06.23-20.23.26:430][ 63]MaterialEditorStats: Info Base pass shader: 89 instructions
+[2017.06.23-20.23.26:430][ 63]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.23.26:430][ 63]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.23-20.23.26:430][ 63]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.23.26:733][ 86]LogMaterial: Missing cached shader map for material Grass1, compiling. 
+[2017.06.23-20.23.26:759][ 86]LogMaterial: Missing cached shader map for material Grass1, compiling. 
+[2017.06.23-20.23.28:293][168]MaterialEditorStats: Info Base pass shader: 93 instructions
+[2017.06.23-20.23.28:293][168]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.23.28:293][168]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.23-20.23.28:293][168]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.23.28:840][214]LogMaterialEditor: Saving and Compiling material Grass1
+[2017.06.23-20.23.29:446][214]LogMaterial: Missing cached shader map for material Grass1, compiling. 
+[2017.06.23-20.23.29:513][214]LogMaterial: Missing cached shader map for material Grass1, compiling. 
+[2017.06.23-20.23.29:567][214]LogMaterial: Missing cached shader map for material Grass1, compiling. 
+[2017.06.23-20.23.29:640][214]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Grass1, compiling. 
+[2017.06.23-20.23.30:880][214]TextureStreamingBuild:Display: Compiling optional shaders took 1.250 seconds.
+[2017.06.23-20.23.32:906][214]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Grass1" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Materials/Grass1.uasset" SILENT=true
+[2017.06.23-20.23.32:920][214]LogSavePackage: Save=11.37ms
+[2017.06.23-20.23.32:921][214]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Grass16B56EE6B4D82C927FB7C03BA22E8A362.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Materials/Grass1.uasset'
+[2017.06.23-20.23.32:922][214]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Materials/Grass1.uasset
+[2017.06.23-20.23.32:924][214]MaterialEditorStats: Info Base pass shader: 93 instructions
+[2017.06.23-20.23.32:924][214]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2017.06.23-20.23.32:924][214]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.06.23-20.23.32:924][214]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.23.49:512][717]LogRenderer: Reallocating scene render targets to support 1080x520 NumSamples 1 (Frame:1).
+[2017.06.23-20.24.03:703][839]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/Nature/Mushroom8" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/Mushroom8.uasset" SILENT=true
+[2017.06.23-20.24.03:715][839]LogSavePackage: Save=8.87ms
+[2017.06.23-20.24.03:715][839]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Mushroom80FECEEF44B5201D46053AB95C3BA222A.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/Mushroom8.uasset'
+[2017.06.23-20.24.03:717][839]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/Mushroom8.uasset
+[2017.06.23-20.24.04:824][921]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/Nature/Mushroom8" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/Mushroom8.uasset" SILENT=true
+[2017.06.23-20.24.04:828][921]LogSavePackage: Save=2.38ms
+[2017.06.23-20.24.04:828][921]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Mushroom8F4102A7D484E662B9B905FA4A2185C82.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/Mushroom8.uasset'
+[2017.06.23-20.24.04:829][921]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/Mushroom8.uasset
+[2017.06.23-20.24.14:517][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/Nature/Mushroom9" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/Mushroom9.uasset" SILENT=true
+[2017.06.23-20.24.14:529][678]LogSavePackage: Save=9.65ms
+[2017.06.23-20.24.14:529][678]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Mushroom9911ED6EC4CA43C96842BC68674B75C2B.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/Mushroom9.uasset'
+[2017.06.23-20.24.14:531][678]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/Mushroom9.uasset
+[2017.06.23-20.24.15:234][731]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/Nature/Mushroom9" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/Mushroom9.uasset" SILENT=true
+[2017.06.23-20.24.15:239][731]LogSavePackage: Save=2.44ms
+[2017.06.23-20.24.15:239][731]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Mushroom980DFCF0848CCECC2840E4A920D98A09E.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/Mushroom9.uasset'
+[2017.06.23-20.24.15:240][731]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/Mushroom9.uasset
+[2017.06.23-20.24.39:035][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/Nature/Grass1" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/Grass1.uasset" SILENT=true
+[2017.06.23-20.24.39:046][652]LogSavePackage: Save=8.40ms
+[2017.06.23-20.24.39:046][652]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Grass1AD30330E45EA5149BB579682B9E41278.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/Grass1.uasset'
+[2017.06.23-20.24.39:047][652]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/Grass1.uasset
+[2017.06.23-20.24.40:079][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/Nature/Grass1" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/Grass1.uasset" SILENT=true
+[2017.06.23-20.24.40:084][729]LogSavePackage: Save=2.34ms
+[2017.06.23-20.24.40:084][729]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Grass18F48301A4700D8463BE17AB322363717.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/Grass1.uasset'
+[2017.06.23-20.24.40:084][729]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/Grass1.uasset
+[2017.06.23-20.24.55:311][983]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/Nature/Grass2" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/Grass2.uasset" SILENT=true
+[2017.06.23-20.24.55:322][983]LogSavePackage: Save=8.31ms
+[2017.06.23-20.24.55:322][983]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Grass29359FAC9416EC3F3D2DC67ABCB17B279.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/Grass2.uasset'
+[2017.06.23-20.24.55:324][983]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/Grass2.uasset
+[2017.06.23-20.24.55:987][ 33]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/Nature/Grass2" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/Grass2.uasset" SILENT=true
+[2017.06.23-20.24.55:992][ 33]LogSavePackage: Save=2.60ms
+[2017.06.23-20.24.55:992][ 33]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Grass21A8715C248777018DCC1E89312FB9AB5.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/Grass2.uasset'
+[2017.06.23-20.24.55:993][ 33]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/Grass2.uasset
+[2017.06.23-20.25.02:208][565]LogSavePackage: Save=276.03ms
+[2017.06.23-20.25.02:208][565]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Minimal_DefaultFCFD1BD74042EA8A2A2F239C0692F9EB.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/StarterContent/Maps/Minimal_Default.umap'
+[2017.06.23-20.25.02:210][565]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/StarterContent/Maps/Minimal_Default.umap
+[2017.06.23-20.25.02:228][565]LogFileHelpers: Saving map 'Minimal_Default' took 0.368
+[2017.06.23-20.25.22:359][220]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/Nature/TreeFull2" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull2.uasset" SILENT=true
+[2017.06.23-20.25.22:372][220]LogSavePackage: Save=10.55ms
+[2017.06.23-20.25.22:373][220]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/TreeFull2AD952EFB442ED0CBBFF459B01070BB02.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull2.uasset'
+[2017.06.23-20.25.22:374][220]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull2.uasset
+[2017.06.23-20.25.46:608][184]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/Nature/TreeFull3" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull3.uasset" SILENT=true
+[2017.06.23-20.25.46:621][184]LogSavePackage: Save=9.93ms
+[2017.06.23-20.25.46:621][184]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/TreeFull352FBA5E747D2F2C64E75F7935044C83F.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull3.uasset'
+[2017.06.23-20.25.46:623][184]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull3.uasset
+[2017.06.23-20.25.49:651][407]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/Nature/TreeFull3" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull3.uasset" SILENT=true
+[2017.06.23-20.25.49:657][407]LogSavePackage: Save=2.66ms
+[2017.06.23-20.25.49:657][407]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/TreeFull345F807C4478DEE81A5CBF8AFA7C9E048.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull3.uasset'
+[2017.06.23-20.25.49:657][407]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull3.uasset
+[2017.06.23-20.25.50:465][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/Nature/TreeFull3" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull3.uasset" SILENT=true
+[2017.06.23-20.25.50:470][467]LogSavePackage: Save=2.76ms
+[2017.06.23-20.25.50:470][467]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/TreeFull35209F396498036695FBAB19844FB9128.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull3.uasset'
+[2017.06.23-20.25.50:471][467]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull3.uasset
+[2017.06.23-20.25.59:554][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/Nature/TreeFull3" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull3.uasset" SILENT=true
+[2017.06.23-20.25.59:559][217]LogSavePackage: Save=2.64ms
+[2017.06.23-20.25.59:559][217]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/TreeFull32F07D98F464D961E118DFA9D1DB6DD04.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull3.uasset'
+[2017.06.23-20.25.59:560][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull3.uasset
+[2017.06.23-20.26.17:498][119]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FloatingFull1)
+[2017.06.23-20.27.06:098][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/Nature/FloatingFull1" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/FloatingFull1.uasset" SILENT=true
+[2017.06.23-20.27.06:109][443]LogSavePackage: Save=7.31ms
+[2017.06.23-20.27.06:109][443]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/FloatingFull1EE83F1C945969D76336DAEB26B2C373E.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/FloatingFull1.uasset'
+[2017.06.23-20.27.06:111][443]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/FloatingFull1.uasset
+[2017.06.23-20.27.09:548][719]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/Nature/FloatingFull1" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/FloatingFull1.uasset" SILENT=true
+[2017.06.23-20.27.09:554][719]LogSavePackage: Save=2.86ms
+[2017.06.23-20.27.09:554][719]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/FloatingFull1B1222C54427559E5C5E6FFBB20AE4B69.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/FloatingFull1.uasset'
+[2017.06.23-20.27.09:555][719]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/FloatingFull1.uasset
+[2017.06.23-20.27.40:170][197]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/Nature/FloatingFull2" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/FloatingFull2.uasset" SILENT=true
+[2017.06.23-20.27.40:180][197]LogSavePackage: Save=6.95ms
+[2017.06.23-20.27.40:180][197]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/FloatingFull2A25843E94BFADBBB63A0F4BC269BDB93.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/FloatingFull2.uasset'
+[2017.06.23-20.27.40:182][197]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/FloatingFull2.uasset
+[2017.06.23-20.27.41:828][323]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/Nature/FloatingFull2" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/FloatingFull2.uasset" SILENT=true
+[2017.06.23-20.27.41:833][323]LogSavePackage: Save=2.77ms
+[2017.06.23-20.27.41:833][323]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/FloatingFull216365C8B4D7361417F3018A1FA17F422.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/FloatingFull2.uasset'
+[2017.06.23-20.27.41:834][323]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/FloatingFull2.uasset
+[2017.06.23-20.28.35:375][398]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/Nature/TreeFull4" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull4.uasset" SILENT=true
+[2017.06.23-20.28.35:389][398]LogSavePackage: Save=10.75ms
+[2017.06.23-20.28.35:389][398]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/TreeFull46144FEDD43389BCC3C78AD8222D8E9E2.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull4.uasset'
+[2017.06.23-20.28.35:391][398]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull4.uasset
+[2017.06.23-20.28.46:814][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/Nature/TreeFull5" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull5.uasset" SILENT=true
+[2017.06.23-20.28.46:827][318]LogSavePackage: Save=9.74ms
+[2017.06.23-20.28.46:827][318]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/TreeFull5F93044D24B2EBFDD8A761E81F3F12FB1.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull5.uasset'
+[2017.06.23-20.28.46:828][318]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull5.uasset
+[2017.06.23-20.28.47:946][391]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/Nature/TreeFull5" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull5.uasset" SILENT=true
+[2017.06.23-20.28.47:951][391]LogSavePackage: Save=2.54ms
+[2017.06.23-20.28.47:951][391]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/TreeFull5AD5E967D4042E7DD1E8F43BEEC84F2D2.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull5.uasset'
+[2017.06.23-20.28.47:952][391]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/TreeFull5.uasset
+[2017.06.23-20.29.14:636][908]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.29.14:722][908]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.29.14:753][908]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.29.15:825][952]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.06.23-20.29.15:825][952]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.06.23-20.29.15:825][952]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.06.23-20.29.22:821][624]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.29.22:834][624]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.06.23-20.29.23:570][667]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.06.23-20.29.23:570][667]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.06.23-20.29.23:570][667]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.06.23-20.29.30:270][228]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.29.30:295][228]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.06.23-20.29.31:050][266]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.06.23-20.29.31:050][266]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.06.23-20.29.31:050][266]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.06.23-20.29.36:045][669]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.29.36:062][669]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.06.23-20.29.36:835][700]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.06.23-20.29.36:835][700]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.29.36:835][700]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.23-20.29.36:835][700]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.29.47:703][614]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.29.47:717][614]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.29.48:541][648]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.06.23-20.29.48:541][648]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.29.48:541][648]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.23-20.29.48:541][648]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.29.50:881][839]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.29.50:907][839]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.06.23-20.29.52:413][917]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2017.06.23-20.29.52:413][917]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.29.52:413][917]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.23-20.29.52:413][917]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.30.02:765][878]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.30.02:796][878]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.30.04:027][933]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.30.04:070][933]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.30.05:661][ 11]MaterialEditorStats: Info Base pass shader: 91 instructions
+[2017.06.23-20.30.05:661][ 11]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.30.05:661][ 11]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.23-20.30.05:661][ 11]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.30.12:047][553]LogMaterialEditor: Saving and Compiling material tumbleweed
+[2017.06.23-20.30.12:639][553]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.30.12:697][553]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.30.12:754][553]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.30.12:812][553]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy tumbleweed, compiling. 
+[2017.06.23-20.30.14:031][553]TextureStreamingBuild:Display: Compiling optional shaders took 1.228 seconds.
+[2017.06.23-20.30.16:041][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/tumbleweed" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Materials/tumbleweed.uasset" SILENT=true
+[2017.06.23-20.30.16:053][553]LogSavePackage: Save=10.73ms
+[2017.06.23-20.30.16:053][553]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/tumbleweed2FB69F344824380298F9E8B5C362C2E8.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Materials/tumbleweed.uasset'
+[2017.06.23-20.30.16:055][553]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Materials/tumbleweed.uasset
+[2017.06.23-20.30.16:055][553]LogMaterialEditor: Saving and Compiling material tumbleweed
+[2017.06.23-20.30.16:057][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/tumbleweed" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Materials/tumbleweed.uasset" SILENT=true
+[2017.06.23-20.30.16:062][553]LogSavePackage: Save=2.31ms
+[2017.06.23-20.30.16:062][553]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/tumbleweed841660374481320266F970A9D7B00946.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Materials/tumbleweed.uasset'
+[2017.06.23-20.30.16:063][553]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Materials/tumbleweed.uasset
+[2017.06.23-20.30.16:065][553]MaterialEditorStats: Info Base pass shader: 91 instructions
+[2017.06.23-20.30.16:065][553]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2017.06.23-20.30.16:066][553]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.23-20.30.16:066][553]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.31.55:471][328]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.31.57:281][418]MaterialEditorStats: Info Base pass shader: 91 instructions
+[2017.06.23-20.31.57:281][418]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.31.57:281][418]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.23-20.31.57:281][418]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.32.01:700][778]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.32.12:212][654]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.32.12:328][655]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2017.06.23-20.32.13:801][730]MaterialEditorStats: Info Base pass shader: 91 instructions
+[2017.06.23-20.32.13:801][730]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.32.13:801][730]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.23-20.32.13:801][730]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.32.16:508][920]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2017.06.23-20.32.16:515][920]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.06.23-20.32.16:520][920]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2017.06.23-20.32.16:527][920]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.06.23-20.32.16:532][920]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2017.06.23-20.32.16:561][920]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionOutput_1, compiling. 
+[2017.06.23-20.32.16:566][920]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_3, compiling. 
+[2017.06.23-20.32.16:717][921]LogSlate: Took 0.012052 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.23-20.32.29:049][981]LogEditorTransaction: Undo Move Node
+[2017.06.23-20.32.29:052][981]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.06.23-20.32.29:057][981]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2017.06.23-20.32.29:073][981]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.32.32:822][ 16]MaterialEditorStats: Info Base pass shader: 91 instructions
+[2017.06.23-20.32.32:822][ 16]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.32.32:822][ 16]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.23-20.32.32:822][ 16]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.32.36:830][338]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.32.45:333][ 50]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.32.46:824][137]MaterialEditorStats: Info Base pass shader: 91 instructions
+[2017.06.23-20.32.46:824][137]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.32.46:824][137]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.23-20.32.46:824][137]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.32.58:987][132]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.32.58:988][132]LogMaterial:Warning: Failed to compile Material /Engine/Transient.tumbleweed for platform PCD3D_SM5, Default Material will be used in game.
+[2017.06.23-20.32.58:988][132]LogMaterial:Warning: 	(Node Desaturation) Missing Desaturation input
+[2017.06.23-20.32.58:989][132]MaterialEditorStats:Error: Error [SM5] (Node Desaturation) Missing Desaturation input
+[2017.06.23-20.33.07:681][861]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.33.09:427][962]MaterialEditorStats: Info Base pass shader: 91 instructions
+[2017.06.23-20.33.09:427][962]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.33.09:427][962]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.23-20.33.09:427][962]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.34.00:375][809]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.34.02:173][910]MaterialEditorStats: Info Base pass shader: 91 instructions
+[2017.06.23-20.34.02:173][910]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.34.02:173][910]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.23-20.34.02:173][910]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.34.09:303][501]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.34.10:855][583]MaterialEditorStats: Info Base pass shader: 91 instructions
+[2017.06.23-20.34.10:855][583]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.23-20.34.10:855][583]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.23-20.34.10:855][583]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.34.11:319][620]LogMaterialEditor: Saving and Compiling material tumbleweed
+[2017.06.23-20.34.11:907][620]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.34.11:964][620]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.34.12:006][620]LogMaterial: Missing cached shader map for material tumbleweed, compiling. 
+[2017.06.23-20.34.12:066][620]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy tumbleweed, compiling. 
+[2017.06.23-20.34.13:233][620]TextureStreamingBuild:Display: Compiling optional shaders took 1.174 seconds.
+[2017.06.23-20.34.15:232][620]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/tumbleweed" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Materials/tumbleweed.uasset" SILENT=true
+[2017.06.23-20.34.15:245][620]LogSavePackage: Save=10.50ms
+[2017.06.23-20.34.15:245][620]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/tumbleweed707EE5F84291FF5793F90D9FBBA8E9B7.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Materials/tumbleweed.uasset'
+[2017.06.23-20.34.15:247][620]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/Materials/tumbleweed.uasset
+[2017.06.23-20.34.15:250][620]MaterialEditorStats: Info Base pass shader: 91 instructions
+[2017.06.23-20.34.15:250][620]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2017.06.23-20.34.15:250][620]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.23-20.34.15:250][620]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.23-20.34.18:072][876]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (AlienRock6)
+[2017.06.23-20.36.16:523][675]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/Nature/Tumbleweed1" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/Tumbleweed1.uasset" SILENT=true
+[2017.06.23-20.36.16:538][675]LogSavePackage: Save=11.91ms
+[2017.06.23-20.36.16:538][675]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Tumbleweed1B91FF62E490E9828DBA27080C1DE7EAD.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/Tumbleweed1.uasset'
+[2017.06.23-20.36.16:540][675]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/Tumbleweed1.uasset
+[2017.06.23-20.36.17:257][736]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FBX/Nature/Tumbleweed1" FILE="../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/Tumbleweed1.uasset" SILENT=true
+[2017.06.23-20.36.17:263][736]LogSavePackage: Save=2.65ms
+[2017.06.23-20.36.17:263][736]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Tumbleweed1ECDED344499C9BE5E6AB288887C42C43.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/Tumbleweed1.uasset'
+[2017.06.23-20.36.17:263][736]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/FBX/Nature/Tumbleweed1.uasset
+[2017.06.23-20.36.39:602][621]LogSavePackage: Save=272.80ms
+[2017.06.23-20.36.39:602][621]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Minimal_DefaultFDB976524DE9C323D22964844FF79EF4.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/StarterContent/Maps/Minimal_Default.umap'
+[2017.06.23-20.36.39:604][621]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/StarterContent/Maps/Minimal_Default.umap
+[2017.06.23-20.36.39:622][621]LogFileHelpers: Saving map 'Minimal_Default' took 0.365
+[2017.06.23-20.36.54:702][300]LogMaterial:Warning: Material /Game/Materials/GtassTall.GtassTall needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2017.06.23-20.36.54:706][300]LogMaterial: Missing cached shader map for material GtassTall, compiling. 
+[2017.06.23-20.36.54:763][300]LogMaterial:Warning: Material /Game/Materials/TreeGreens1.TreeGreens1 needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2017.06.23-20.36.54:766][300]LogMaterial: Missing cached shader map for material TreeGreens1, compiling. 
+[2017.06.23-20.36.54:829][300]LogMaterial:Warning: Material /Game/Materials/Palette1.Palette1 needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2017.06.23-20.36.54:831][300]LogMaterial: Missing cached shader map for material Palette1, compiling. 
+[2017.06.23-20.36.54:858][300]LogMaterial:Warning: Material /Game/Materials/HangingGreens1.HangingGreens1 needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2017.06.23-20.36.54:861][300]LogMaterial: Missing cached shader map for material HangingGreens1, compiling. 
+[2017.06.23-20.37.00:289][615]Cmd: TRANSACTION UNDO
+[2017.06.23-20.37.00:289][615]LogEditorTransaction: Undo Foliage Editing
+[2017.06.23-20.37.07:586][  5]Cmd: TRANSACTION UNDO
+[2017.06.23-20.37.07:586][  5]LogEditorTransaction: Undo Foliage Editing
+[2017.06.23-20.38.17:277][318]LogEditorViewport: Clicking on Actor (context menu): InstancedFoliageActor (InstancedFoliageActor)
+[2017.06.23-20.38.33:675][217]Cmd: TRANSACTION UNDO
+[2017.06.23-20.38.33:675][217]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.06.23-20.38.35:479][380]Cmd: TRANSACTION UNDO
+[2017.06.23-20.38.35:479][380]LogEditorTransaction: Undo Foliage Editing
+[2017.06.23-20.38.36:381][463]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.06.23-20.38.40:767][825]LogSavePackage: Save=271.80ms
+[2017.06.23-20.38.40:767][825]LogSavePackage: Moving '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Saved/Minimal_DefaultDBBF890048780C4B6A4E8B9891D4E285.tmp' to '../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/StarterContent/Maps/Minimal_Default.umap'
+[2017.06.23-20.38.40:769][825]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Snoop/Documents/Unreal Projects/Hunter/Content/StarterContent/Maps/Minimal_Default.umap
+[2017.06.23-20.38.40:788][825]LogFileHelpers: Saving map 'Minimal_Default' took 0.363
+[2017.06.23-20.39.08:244][487]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.06.23-20.39.10:218][677]Cmd: TRANSACTION UNDO
+[2017.06.23-20.39.10:218][677]LogEditorTransaction: Undo Foliage Editing
+[2017.06.23-20.39.15:895][254]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.06.23-20.39.18:042][487]Cmd: TRANSACTION UNDO
+[2017.06.23-20.39.18:043][487]LogEditorTransaction: Undo Foliage Editing
+[2017.06.23-20.39.18:451][516]Cmd: TRANSACTION UNDO
+[2017.06.23-20.39.18:451][516]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.06.23-20.39.18:922][553]Cmd: TRANSACTION UNDO
+[2017.06.23-20.39.18:922][553]LogEditorTransaction: Undo Foliage Editing
+[2017.06.23-20.39.35:316][212]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.06.23-20.39.36:181][313]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.06.23-20.39.46:329][452]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.06.23-20.40.06:948][ 35]LogMaterial:Warning: Material /Game/Materials/Mushrooms.Mushrooms needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2017.06.23-20.40.06:952][ 35]LogMaterial: Missing cached shader map for material Mushrooms, compiling. 
+[2017.06.23-20.40.59:431][599]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2017.06.23-20.43.53:344][195]LogRenderer: Reallocating scene render targets to support 1080x520 NumSamples 1 (Frame:86171).
+[2017.06.23-20.43.53:440][200]LogContentStreaming: Texture pool size now 800 MB
+[2017.06.23-20.43.56:131][469]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.06.23-20.43.56:166][469]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.06.23-20.43.56:166][469]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.23-20.43.56:166][469]PIE: New page: PIE session: Minimal_Default (Jun 23, 2017, 10:43:56 PM)
+[2017.06.23-20.43.56:166][469]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.06.23-20.43.56:216][469]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049281s)
+[2017.06.23-20.43.56:216][469]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.06.23-20.43.56:217][469]LogPlayLevel: PIE: World Init took: (0.000854s)
+[2017.06.23-20.43.56:217][469]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.050372s)
+[2017.06.23-20.43.56:228][469]LogInit: XAudio2 using 'LG TV-14 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.23-20.43.56:235][469]LogInit: FAudioDevice initialized.
+[2017.06.23-20.43.56:287][469]LogLoad: Game class is 'GameModeBase'
+[2017.06.23-20.43.56:327][469]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.06.23-21.43.56
+[2017.06.23-20.43.56:328][469]LogWorld: Bringing up level for play took: 0.039008
+[2017.06.23-20.43.56:366][469]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.06.23-20.43.56:373][469]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.527
+[2017.06.23-20.43.56:374][469]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.06.23-20.43.56:422][469]LogRenderer: Reallocating scene render targets to support 1124x656 NumSamples 1 (Frame:1).
+[2017.06.23-20.45.41:047][152]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.06.23-20.45.41:107][152]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.06.23-20.46.22:174][ 12]LogEditorViewport: Clicking on Actor (context menu): InstancedFoliageActor (InstancedFoliageActor)
+[2017.06.23-20.46.32:778][907]LogRenderer: Reallocating scene render targets to support 1124x656 NumSamples 1 (Frame:89007).
+[2017.06.23-20.46.32:806][908]LogContentStreaming: Texture pool size now 400 MB
+[2017.06.23-20.47.57:714][297]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
